@@ -1,0 +1,180 @@
+Sun Sep 27 01:11:39 2015 >> Sending to 74102915: Hello, Eugene
+Sun Sep 27 01:12:15 2015 >> Sending to 74102915: Hello, Eugene
+Sun Sep 27 01:13:26 2015 >> Sending to 74102915: Hello, Eugene
+Sun Sep 27 01:13:52 2015 >> Sending to 74102915: Hello, Eugene
+Sun Sep 27 01:14:58 2015 >> Sending to 74102915: Result: [1, 1, 1]
+Sun Sep 27 01:17:11 2015 >> Sending to 74102915: Result: [2, 3, 1]
+Sun Sep 27 01:17:25 2015 >> Sending to 74102915: Result: [2, 2, 3]
+Sun Sep 27 01:17:26 2015 >> Message (id430518774) from Eugene (id74102915): "/3d3"
+Sun Sep 27 01:17:26 2015 >> Sending to 74102915: Result: [2, 1, 1]
+Sun Sep 27 01:18:44 2015 >> Message (id430518775) from Eugene (id74102915): "/3d3"
+Sun Sep 27 01:18:47 2015 >> Message (id430518775) from Eugene (id74102915): "/3d3"
+Sun Sep 27 01:18:47 2015 >> Sending to 74102915: Result: [3, 1, 3]
+Sun Sep 27 08:29:46 2015 >> Message (id430518777) from Eugene (id74102915): "/3d3"
+Sun Sep 27 08:29:46 2015 >> Sending to 74102915: Result: [3, 1, 1]
+Sun Sep 27 08:41:33 2015 >> Message (id430518778) from Eugene (id74102915): "\vk"
+Sun Sep 27 08:41:36 2015 >> Message (id430518779) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:41:38 2015 >> Deleting 0 messages
+Sun Sep 27 08:42:33 2015 >> Message (id430518780) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:42:35 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:44:20 2015 >> Message (id430518781) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:44:22 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:45:18 2015 >> Message (id430518782) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:45:18 2015 >> Message (id430518782) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:45:19 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:45:20 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:46:30 2015 >> Message (id430518783) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:46:31 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:46:32 2015 >> Message (id430518783) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:46:32 2015 >> Message (id430518783) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:46:34 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:47:22 2015 >> Message (id430518784) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:47:24 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:47:30 2015 >> Error getting updates
+Sun Sep 27 08:47:57 2015 >> Message (id430518785) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:47:59 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:48:28 2015 >> Message (id430518785) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:48:29 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:48:42 2015 >> Message (id430518786) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:48:43 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:49:08 2015 >> Message (id430518786) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:49:09 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:50:26 2015 >> Message (id430518786) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:51:49 2015 >> Message (id430518786) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:51:51 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:51:57 2015 >> Error getting updates
+Sun Sep 27 08:54:00 2015 >> Message (id430518787) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:54:02 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:54:19 2015 >> Message (id430518788) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:54:20 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:54:44 2015 >> Message (id430518789) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:54:46 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:56:19 2015 >> Message (id430518790) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:56:21 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 08:57:26 2015 >> Message (id430518791) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:57:34 2015 >> Message (id430518791) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:59:12 2015 >> Message (id430518791) from Eugene (id74102915): "/vk"
+Sun Sep 27 08:59:14 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:01:02 2015 >> Message (id430518792) from Eugene (id74102915): "/3d3"
+Sun Sep 27 09:01:02 2015 >> Sending to 74102915: Result: [3, 2, 3]
+Sun Sep 27 09:01:02 2015 >> Message (id430518793) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:01:04 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:01:56 2015 >> Error getting updates
+Sun Sep 27 09:04:45 2015 >> Message (id430518794) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:04:47 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:05:13 2015 >> Message (id430518795) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:05:15 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:05:21 2015 >> Error getting updates
+Sun Sep 27 09:05:58 2015 >> Message (id430518796) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:07:52 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:08:42 2015 >> Message (id430518797) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:08:45 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:09:30 2015 >> Message (id430518797) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:09:30 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:09:53 2015 >> Message (id430518798) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:09:54 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:10:43 2015 >> Message (id430518799) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:11:31 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:13:45 2015 >> Message (id430518800) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:14:00 2015 >> Sending to 74102915: Deleting 12 messages
+Sun Sep 27 09:14:10 2015 >> Message (id430518801) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:14:12 2015 >> Sending to 74102915: Deleting 1 messages
+Sun Sep 27 09:16:46 2015 >> Message (id430518802) from Eugene (id74102915): "/pig"
+Sun Sep 27 09:16:46 2015 >> Sending to 74102915: Pig is gorgeous
+Sun Sep 27 09:22:15 2015 >> Message (id430518803) from Eugene (id74102915): "/pig"
+Sun Sep 27 09:22:15 2015 >> Sending to 74102915: Pig is pretty
+Sun Sep 27 09:22:22 2015 >> Message (id430518804) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:22:53 2015 >> Message (id430518804) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:22:54 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:28:41 2015 >> Message (id430518805) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:28:42 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:29:58 2015 >> Message (id430518806) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:29:59 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:30:33 2015 >> Message (id430518807) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:30:34 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:31:23 2015 >> Message (id430518807) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:31:23 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:33:55 2015 >> Message (id430518807) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:34:42 2015 >> Message (id430518807) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:34:43 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:35:08 2015 >> Message (id430518808) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:35:09 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:35:54 2015 >> Message (id430518809) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:35:55 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:37:06 2015 >> Message (id430518810) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:37:13 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 09:45:00 2015 >> Message (id430518811) from Eugene (id74102915): "/vk"
+Sun Sep 27 09:45:04 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 10:09:18 2015 >> Message (id430518812) from Eugene (id74102915): "/pig"
+Sun Sep 27 10:09:18 2015 >> Sending to 74102915: Pig is foxy
+Sun Sep 27 10:09:38 2015 >> Message (id430518813) from Eugene (id-18863301): "/pig"
+Sun Sep 27 10:09:38 2015 >> Sending to -18863301: Pig is sexy
+Sun Sep 27 10:13:17 2015 >> Message (id430518814) from Eugene (id74102915): "/pig" with author: 74102915
+Sun Sep 27 10:13:17 2015 >> Sending to 74102915: Pig is handsome
+Sun Sep 27 10:14:17 2015 >> Error getting updates
+Sun Sep 27 10:14:43 2015 >> Message (id430518816) from Eugene (id74102915): "1" with author: 74102915
+Sun Sep 27 22:34:52 2015 >> Message (id430518818) from Eugene (id74102915): "/start" with author: 74102915
+Sun Sep 27 22:34:52 2015 >> Message (id430518819) from Eugene (id74102915): "Hello" with author: 74102915
+Sun Sep 27 22:34:52 2015 >> Sending to 74102915: Hello, Eugene
+Sun Sep 27 22:34:52 2015 >> Message (id430518820) from Eugene (id74102915): "/pig" with author: 74102915
+Sun Sep 27 22:34:52 2015 >> Sending to 74102915: Pig is handsome
+Sun Sep 27 22:35:12 2015 >> Message (id430518822) from Eugene (id74102915): "Hello" with author: 74102915
+Sun Sep 27 22:35:12 2015 >> Sending to 74102915: Hello, Eugene
+Sun Sep 27 22:35:19 2015 >> Message (id430518823) from Eugene (id74102915): "/vk" with author: 74102915
+Sun Sep 27 22:35:21 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 22:35:57 2015 >> Message (id430518824) from Eugene (id74102915): "/vk" with author: 74102915
+Sun Sep 27 22:35:58 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 22:37:28 2015 >> Message (id430518825) from Eugene (id74102915): "/vk" with author: 74102915
+Sun Sep 27 22:37:29 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 22:38:01 2015 >> Message (id430518826) from Eugene (id74102915): "/vk" with author: 74102915
+Sun Sep 27 22:38:01 2015 >> Sending to 74102915: Deleting 0 messages
+Sun Sep 27 22:38:50 2015 >> Message (id430518827) from Eugene (id74102915): "/vk" with author: 74102915
+Sun Sep 27 22:40:06 2015 >> Sending to 74102915: Deleting 53 messages
+Mon Sep 28 00:28:34 2015 >> Error getting updates
+Mon Sep 28 00:28:38 2015 >> Message (id430518828) from Eugene (id74102915): "/start" with author: 74102915
+Mon Sep 28 00:28:51 2015 >> Message (id430518830) from Eugene (id74102915): "/pig" with author: 74102915
+Mon Sep 28 00:28:51 2015 >> Sending to 74102915: Pig is babe
+Mon Sep 28 00:28:58 2015 >> Message (id430518831) from Eugene (id-18863301): "/pig" with author: 74102915
+Mon Sep 28 00:28:58 2015 >> Sending to -18863301: Pig is babe
+Mon Sep 28 00:53:09 2015 >> Message (id430518832) from Eugene (id74102915): "/pig" with author: 74102915
+Mon Sep 28 00:53:10 2015 >> Sending to 74102915: Pig is hot
+Mon Sep 28 00:53:10 2015 >> Message (id430518832) from Eugene (id74102915): "/pig" with author: 74102915
+Mon Sep 28 00:53:10 2015 >> Sending to 74102915: Pig is hot
+Mon Sep 28 00:53:34 2015 >> Message (id430518833) from Eugene (id74102915): "/pig" with author: 74102915
+Mon Sep 28 00:53:34 2015 >> Sending to 74102915: Pig is sexy
+Mon Sep 28 00:53:54 2015 >> Message (id430518834) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 00:54:06 2015 >> Message (id430518834) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 00:56:23 2015 >> Message (id430518834) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 00:56:47 2015 >> Message (id430518835) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 00:57:51 2015 >> Message (id430518836) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 00:58:14 2015 >> Message (id430518836) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 00:58:25 2015 >> Message (id430518837) from Eugene (id74102915): "/keyboard" with author: 74102915
+Mon Sep 28 19:56:41 2015 >> Message (id430518852) from Eugene (id74102915): "/pig" with author: 74102915
+Mon Sep 28 19:56:41 2015 >> Sending to 74102915: Pig is gorgeous
+Mon Sep 28 19:56:58 2015 >> Message (id430518853) from Eugene (id74102915): "/Vk" with author: 74102915
+Mon Sep 28 19:57:04 2015 >> Message (id430518854) from Eugene (id74102915): "/vk" with author: 74102915
+Mon Sep 28 19:57:25 2015 >> Sending to 74102915: Deleting 15 messages
+Mon Sep 28 19:58:54 2015 >> Message (id430518855) from Eugene (id74102915): "/vk" with author: 74102915
+Mon Sep 28 19:59:19 2015 >> Sending to 74102915: Deleting 14 messages
+Mon Sep 28 19:59:36 2015 >> Message (id430518856) from Eugene (id74102915): "/vk" with author: 74102915
+Mon Sep 28 20:00:30 2015 >> Sending to 74102915: Deleting 36 messages
+Mon Sep 28 20:00:50 2015 >> Message (id430518857) from Eugene (id74102915): "/vk" with author: 74102915
+Mon Sep 28 20:00:58 2015 >> Sending to 74102915: Deleting 4 messages
+Mon Sep 28 20:01:01 2015 >> Message (id430518858) from Eugene (id74102915): "/vk" with author: 74102915
+Mon Sep 28 20:01:02 2015 >> Sending to 74102915: Deleting 0 messages
+Mon Sep 28 20:01:22 2015 >> Message (id430518859) from Eugene (id-18863301): "/pig" with author: 74102915
+Mon Sep 28 20:01:22 2015 >> Sending to -18863301: Pig is cute
+Mon Sep 28 20:01:32 2015 >> Message (id430518860) from Eugene (id-18863301): "/pig" with author: 74102915
+Mon Sep 28 20:01:32 2015 >> Sending to -18863301: Pig is lovely
+Mon Sep 28 20:24:46 2015 >> Error getting updates
+Mon Sep 28 20:24:49 2015 >> Error getting updates
+Mon Sep 28 21:33:48 2015 >> Message (id430518881) from Eugene (id-18863301): "https://ru.wikipedia.org/wiki/Argumentum_ad_verecundiam" with author: 74102915
+Mon Sep 28 21:46:22 2015 >> Message (id430518882) from Eugene (id-18863301): "https://www.youtube.com/watch?v=eFkv4OIqmWg" with author: 74102915
+Wed Oct 07 23:42:43 2015 >> Message (id430518889) from Eugene (id74102915): "/vk" with author: 74102915
+Wed Oct 07 23:44:13 2015 >> Sending to 74102915: Deleting 81 messages
+Wed Oct 07 23:44:17 2015 >> Message (id430518890) from Eugene (id74102915): "/vk" with author: 74102915
+Wed Oct 07 23:45:42 2015 >> Sending to 74102915: Deleting 76 messages
+Wed Oct 07 23:46:22 2015 >> Message (id430518891) from Eugene (id74102915): "/vk" with author: 74102915
+Wed Oct 07 23:46:52 2015 >> Sending to 74102915: Deleting 27 messages
+Wed Oct 07 23:48:53 2015 >> Message (id430518892) from Eugene (id74102915): "/pig" with author: 74102915
+Wed Oct 07 23:48:53 2015 >> Sending to 74102915: Pig is gorgeous
