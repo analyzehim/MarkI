@@ -24,8 +24,7 @@ requests.packages.urllib3.disable_warnings() # Подавление InsecureRequ
 
 def log_event(text):
     """
-    Процедура логгирования
-    ToDo: 1) Запись лога в файл
+    Logging
     """
     f = open('log.txt', 'a')
     event = '%s >> %s' % (time.ctime(), text)
@@ -34,15 +33,14 @@ def log_event(text):
     print event
 
 def send_text(chat_id, text):
-    """Отправка текстового сообщения по chat_id
-    ToDo: повторная отправка при неудаче"""
-    log_event('Sending to %s: %s' % (chat_id, text)) # Запись события в лог
-    data = {'chat_id': chat_id, 'text': text} # Формирование запроса
-    request = requests.post(URL + TOKEN + '/sendMessage', data=data) # HTTP запрос
-    if not request.status_code == 200: # Проверка ответа сервера
-        return False # Возврат с неудачей
-    return request.json()['ok'] # Проверка успешности обращения к API
-
+    """Send text message by chat_id"""
+    log_event('Sending to %s: %s' % (chat_id, text)) # Logging
+    data = {'chat_id': chat_id, 'text': text} # Request create
+    request = requests.post(URL + TOKEN + '/sendMessage', data=data) # HTTP request
+    if not request.status_code == 200: # Check server status
+        return False 
+    return request.json()['ok'] # Check API
+'''
 def make_photo(photo_id):
     """Обращение к приложению fswebcam для получения снимка с Web-камеры"""
     photo_name = 'photo/%s.jpg' % photo_id # Формирование имени файла фотографии
@@ -57,3 +55,4 @@ def send_photo(chat_id, photo_id):
     files = {'photo': open(photo_name, 'rb')} # Открытие фото и присвоение
     request = requests.post(URL + TOKEN + '/sendPhoto', data=data, files=files) # Отправка фото
     return request.json()['ok'] # Возврат True или False, полученного из ответа сервера, в зависимости от результата
+'''

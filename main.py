@@ -8,13 +8,14 @@ import random
 import re
 from bot_proto import *
 from bot_const import *
-from bot_vk import *
+#from bot_vk import *
 
 def check_updates():
     global offset
     data = {'offset': offset + 1, 'limit': 5, 'timeout': 0} # Формируем параметры запроса
     
     try:
+        print (URL + TOKEN + '/getUpdates')
         request = requests.post(URL + TOKEN + '/getUpdates', data=data) # Отправка запроса обновлений
     except:
         log_event('Error getting updates') # Логгируем ошибку
@@ -41,6 +42,7 @@ def check_updates():
             log_event('Message (id%s) from %s (id%s): "%s" with author: %s' % parameters) 
         except:
             pass
+        print parameters
         run_command(*parameters)
 
 
@@ -100,6 +102,7 @@ def run_command(offset, name, from_id, cmd, author_id):
 if __name__ == "__main__":
     while True:
         try:
+            print 1
             check_updates()
             time.sleep(INTERVAL)
         except KeyboardInterrupt:

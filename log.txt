@@ -178,3 +178,16 @@ Wed Oct 07 23:46:22 2015 >> Message (id430518891) from Eugene (id74102915): "/vk
 Wed Oct 07 23:46:52 2015 >> Sending to 74102915: Deleting 27 messages
 Wed Oct 07 23:48:53 2015 >> Message (id430518892) from Eugene (id74102915): "/pig" with author: 74102915
 Wed Oct 07 23:48:53 2015 >> Sending to 74102915: Pig is gorgeous
+Wed Oct 26 10:28:19 2016 >> Error getting updates
+Wed Oct 26 10:28:23 2016 >> Error getting updates
+Sun Nov 13 21:38:47 2016 >> Error getting updates
+Sun Nov 13 21:38:47 2016 >> Error getting updates
+Sun Nov 13 21:46:28 2016 >> Error getting updates
+Sun Nov 13 21:54:28 2016 >> Message (id737009275) from Eugene (id74102915): "/pig" with author: 74102915
+Sun Nov 13 21:54:28 2016 >> Sending to 74102915: Pig is handsome
+Sun Nov 13 21:54:31 2016 >> Message (id737009275) from Eugene (id74102915): "/pig" with author: 74102915
+Sun Nov 13 21:54:31 2016 >> Sending to 74102915: Pig is sexy
+Sun Nov 13 21:54:31 2016 >> Message (id737009275) from Eugene (id74102915): "/pig" with author: 74102915
+Sun Nov 13 21:54:31 2016 >> Sending to 74102915: Pig is foxy
+Sun Nov 13 21:54:35 2016 >> Message (id737009275) from Eugene (id74102915): "/pig" with author: 74102915
+Sun Nov 13 21:54:35 2016 >> Sending to 74102915: Pig is hot
