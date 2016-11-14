@@ -6,6 +6,7 @@ import os
 #import mailchecker
 import random
 import re
+from diary_proto import Diary
 from bot_proto import *
 from bot_const import *
 #from bot_vk import *
@@ -15,7 +16,7 @@ def check_updates():
     data = {'offset': offset + 1, 'limit': 5, 'timeout': 0} # Формируем параметры запроса
     
     try:
-        print (URL + TOKEN + '/getUpdates')
+        #print (URL + TOKEN + '/getUpdates')
         request = requests.post(URL + TOKEN + '/getUpdates', data=data) # Отправка запроса обновлений
     except:
         log_event('Error getting updates') # Логгируем ошибку
@@ -55,7 +56,22 @@ def run_command(offset, name, from_id, cmd, author_id):
 
     elif cmd in ('Hello','hello','hi','Hi'): # Say hello
         send_text(from_id, 'Hello, %s'%name)
+        
+    elif cmd[0:2] == '/d' and author_id in (ADMIN_ID, PIG_ID):
+        d = Diary()
+        if len(cmd) == 2:
+            d = Diary()
 
+            output = unicode(str(d), "CP1251")
+            #print output
+            send_text(from_id, output) # Answer
+        else:
+            new_line = cmd.split(' ')[1]
+            flag = cmd.split(' ')[2]
+            d.add_line(unicode(str(new_line), "CP1251"), flag)
+            send_text(from_id, 'Added')
+            
+        
     elif cmd == '/pig' and author_id in (ADMIN_ID, PIG_ID): 
         send_text(from_id, 'Pig is '+random.choice(PIG_LIST)) # Answer
 
@@ -102,7 +118,6 @@ def run_command(offset, name, from_id, cmd, author_id):
 if __name__ == "__main__":
     while True:
         try:
-            print 1
             check_updates()
             time.sleep(INTERVAL)
         except KeyboardInterrupt:

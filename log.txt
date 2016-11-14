@@ -191,3 +191,136 @@ Sun Nov 13 21:54:31 2016 >> Message (id737009275) from Eugene (id74102915): "/pi
 Sun Nov 13 21:54:31 2016 >> Sending to 74102915: Pig is foxy
 Sun Nov 13 21:54:35 2016 >> Message (id737009275) from Eugene (id74102915): "/pig" with author: 74102915
 Sun Nov 13 21:54:35 2016 >> Sending to 74102915: Pig is hot
+Mon Nov 14 20:49:39 2016 >> Message (id737009278) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:49:39 2016 >> Sending to 74102915: 0______ DAY:
+0: Проверь почту
+1: Позвони маме
+2: Посмотри цветные кроссовки
+3: В среду контрольная
+4: SAS
+5: Кольцо на 7
+6: Морозов
+
+1______ WEEK:
+0: Разбери марльборо
+1: забери ноутбук с вднх
+2: Почитай Гиляровского про бурлаков
+
+2______ BACKLOG:
+0: Возьми в Альфа Банке справку о том, что нет счетов
+1: Пропылесось дома
+
+Mon Nov 14 20:50:18 2016 >> Message (id737009278) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:50:18 2016 >> Sending to 74102915: 0______ DAY:
+0: Проверь почту
+1: Позвони маме
+2: Посмотри цветные кроссовки
+3: В среду контрольная
+4: SAS
+5: Кольцо на 7
+6: Морозов
+
+1______ WEEK:
+0: Разбери марльборо
+1: забери ноутбук с вднх
+2: Почитай Гиляровского про бурлаков
+
+2______ BACKLOG:
+0: Возьми в Альфа Банке справку о том, что нет счетов
+1: Пропылесось дома
+
+Mon Nov 14 20:50:25 2016 >> Message (id737009279) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:50:25 2016 >> Sending to 74102915: 0______ DAY:
+0: Проверь почту
+1: Позвони маме
+2: Посмотри цветные кроссовки
+3: В среду контрольная
+4: SAS
+5: Кольцо на 7
+6: Морозов
+
+1______ WEEK:
+0: Разбери марльборо
+1: забери ноутбук с вднх
+2: Почитай Гиляровского про бурлаков
+
+2______ BACKLOG:
+0: Возьми в Альфа Банке справку о том, что нет счетов
+1: Пропылесось дома
+
+Mon Nov 14 20:50:52 2016 >> Message (id737009280) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:50:52 2016 >> Sending to 74102915: Hi
+Mon Nov 14 20:51:51 2016 >> Message (id737009281) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:51:51 2016 >> Sending to 74102915: Hi
+Mon Nov 14 20:52:09 2016 >> Error getting updates
+Mon Nov 14 20:52:15 2016 >> Message (id737009282) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:52:16 2016 >> Sending to 74102915: 0______ DAY:
+0: Проверь почту
+1: Позвони маме
+2: Посмотри цветные кроссовки
+3: В среду контрольная
+4: SAS
+5: Кольцо на 7
+6: Морозов
+
+1______ WEEK:
+0: Разбери марльборо
+1: забери ноутбук с вднх
+2: Почитай Гиляровского про бурлаков
+
+2______ BACKLOG:
+0: Возьми в Альфа Банке справку о том, что нет счетов
+1: Пропылесось дома
+
+Mon Nov 14 20:53:01 2016 >> Message (id737009283) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:53:01 2016 >> Sending to 74102915: 0______ DAY:
+0: Проверь почту
+1: Позвони маме
+2: Посмотри цветные кроссовки
+3: В среду контрольная
+4: SAS
+5: Кольцо на 7
+6: Морозов
+
+1______ WEEK:
+0: Разбери марльборо
+1: забери ноутбук с вднх
+2: Почитай Гиляровского про бурлаков
+
+2______ BACKLOG:
+0: Возьми в Альфа Банке справку о том, что нет счетов
+1: Пропылесось дома
+
+Mon Nov 14 20:53:22 2016 >> Message (id737009284) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:53:22 2016 >> Sending to 74102915: 0______ DA
+Mon Nov 14 20:53:44 2016 >> Message (id737009285) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:53:44 2016 >> Sending to 74102915: 0______ DAY:
+0: Пров
+Mon Nov 14 20:56:05 2016 >> Message (id737009286) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:56:05 2016 >> Sending to 74102915: 0______ DAY:
+0: Пров
+Mon Nov 14 20:56:38 2016 >> Message (id737009287) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 20:56:38 2016 >> Sending to 74102915: 0______ DAY:
+0: Пров
+Mon Nov 14 20:58:58 2016 >> Error getting updates
+Mon Nov 14 20:59:14 2016 >> Message (id737009288) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:08:55 2016 >> Message (id737009288) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:10:27 2016 >> Message (id737009288) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:10:39 2016 >> Message (id737009288) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:12:52 2016 >> Message (id737009288) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:12:52 2016 >> Message (id737009289) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:13:16 2016 >> Message (id737009290) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:15:10 2016 >> Error getting updates
+Mon Nov 14 21:15:29 2016 >> Message (id737009291) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:15:29 2016 >> Error with LOGGING
+Mon Nov 14 21:15:48 2016 >> Message (id737009292) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:15:48 2016 >> Error with LOGGING
+Mon Nov 14 21:16:35 2016 >> Message (id737009293) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:16:35 2016 >> Error with LOGGING
+Mon Nov 14 21:17:12 2016 >> Message (id737009294) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:17:12 2016 >> Error with LOGGING
+Mon Nov 14 21:18:35 2016 >> Message (id737009295) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:18:35 2016 >> Error with LOGGING
+Mon Nov 14 21:21:40 2016 >> Sending to 74102915: Added
+Mon Nov 14 21:21:44 2016 >> Message (id737009298) from Eugene (id74102915): "/d" with author: 74102915
+Mon Nov 14 21:21:44 2016 >> Error with LOGGING

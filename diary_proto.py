@@ -1,6 +1,6 @@
-day_file = "day.txt" #param 0
-week_file = "week.txt" #param 1
-backlog_file = "backlog.txt" #param 2
+day_file = "data/day.txt" #param 0
+week_file = "data/week.txt" #param 1
+backlog_file = "data/backlog.txt" #param 2
 
 def parse_file(filename):
     mas=[]
@@ -43,6 +43,7 @@ class Diary:
         
     def add_line(self, line, flag):
         self.matr[int(flag)].append(line)
+        self.update_files()
         return 0
     
     def __str__(self):
@@ -58,12 +59,6 @@ class Diary:
         self.matr[0] = parse_file(day_file)
         self.matr[1] = parse_file(week_file)
         self.matr[2] = parse_file(backlog_file)
-        
-d = Diary()
-d.update_files()
-print d
-#d.change_flag(0,2,1)
-#print d
 
 
 

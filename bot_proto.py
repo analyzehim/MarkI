@@ -34,7 +34,10 @@ def log_event(text):
 
 def send_text(chat_id, text):
     """Send text message by chat_id"""
-    log_event('Sending to %s: %s' % (chat_id, text)) # Logging
+    try:
+        log_event('Sending to %s: %s' % (chat_id, text)) # Logging
+    except:
+         log_event('Error with LOGGING')
     data = {'chat_id': chat_id, 'text': text} # Request create
     request = requests.post(URL + TOKEN + '/sendMessage', data=data) # HTTP request
     if not request.status_code == 200: # Check server status
