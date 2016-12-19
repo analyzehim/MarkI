@@ -3,30 +3,30 @@ import requests
 import time
 import subprocess
 import os
-#import mailchecker
+
 import random
 import re
 from diary_proto import Diary
 from bot_proto import *
 from bot_const import *
-#from bot_vk import *
+
+MODE = 0
 
 def check_updates():
     global offset
-    data = {'offset': offset + 1, 'limit': 5, 'timeout': 0} # Формируем параметры запроса
+    data = {'offset': offset + 1, 'limit': 5, 'timeout': 0}
     
     try:
-        #print (URL + TOKEN + '/getUpdates')
-        request = requests.post(URL + TOKEN + '/getUpdates', data=data) # Отправка запроса обновлений
+        request = requests.post(URL + TOKEN + '/getUpdates', data=data)
     except:
-        log_event('Error getting updates') # Логгируем ошибку
-        return False # Завершаем проверку
-    if not request.status_code == 200: return False # Проверка ответа сервера
+        log_event('Error getting updates')
+        return False
+    if not request.status_code == 200: return False
 
-    if not request.json()['ok']: return False # Проверка успешности обращения к API
+    if not request.json()['ok']: return False
     
-    for update in request.json()['result']: # Проверка каждого элемента списка
-        offset = update['update_id'] # Извлечение ID сообщения
+    for update in request.json()['result']:
+        offset = update['update_id']
 
         if not 'message' in update or not 'text' in update['message']: continue
 
@@ -34,7 +34,7 @@ def check_updates():
         author_id = update['message']['from']['id'] # Creator ID
         message = update['message']['text'] 
         try:
-            name = update['message']['chat']['first_name'] # Извлечение username отправителя      
+            name = update['message']['chat']['first_name']   
         except:
             name = update['message']['from']['first_name'] 
 
@@ -48,6 +48,7 @@ def check_updates():
 
 
 def run_command(offset, name, from_id, cmd, author_id):
+    global MODE
     if cmd == '/ping':
         send_text(from_id, 'pong') 
 
@@ -59,46 +60,30 @@ def run_command(offset, name, from_id, cmd, author_id):
         
     elif cmd[0:2] == '/d' and author_id in (ADMIN_ID, PIG_ID):
         d = Diary()
-        if len(cmd) == 2:
-            d = Diary()
-
-            output = unicode(str(d), "CP1251")
-            #print output
-            send_text(from_id, output) # Answer
+        if cmd == '/d':
+            send_text_withKeyboard(from_id,1,[["Day"],["Week"],["Backlog"],["All"]])
         else:
-            new_line = cmd.split(' ')[1]
-            flag = cmd.split(' ')[2]
-            d.add_line(unicode(str(new_line), "CP1251"), flag)
-            send_text(from_id, 'Added')
+            op = cmd.split(' ')[1]
+            if op =='-':
+                task_type = int(cmd.split(' ')[2])
+                task_id = int(cmd.split(' ')[3])
+                print task_id, task_type
+                d.delete_id(task_type, task_id)
+                output = unicode(str(d.return_list(task_type)), "CP1251")
+                send_text(from_id, output)
+                return
+            if op =='+':
+                task_type = int(cmd.split(' ')[2])
+                task = cmd.split(' ',3)[3]
+                d.add_line(task_type,task.encode('CP1251'))
+                output = unicode(str(d.return_list(task_type)), "CP1251")
+                send_text(from_id, output)
+        MODE = 1
+        return
             
         
     elif cmd == '/pig' and author_id in (ADMIN_ID, PIG_ID): 
         send_text(from_id, 'Pig is '+random.choice(PIG_LIST)) # Answer
-
-    elif cmd =='/vk' and author_id in (ADMIN_ID, PIG_ID) :
-        del_mes = 0
-        for i in range(1):
-            del_mes+=delete_mes(200,0)
-            del_mes+=delete_mes(200,200)
-        send_text(from_id,'Deleting %s messages' % str(del_mes) )
-
-    elif cmd == '/photo': # Запрос фотографии с подключенной Web-камеры
-        # Для оператора If ниже. Если первая попытка успешна - выполняется условие, если нет, то вторая попытка и условие
-        # Если и вторая не успешна, тогда отчитываемся об ошибке
-        # Всё потому, что на моей конфигурации крайне изредка камера бывает недоступна с первого раза
-        if make_photo(offset) or make_photo(offset):
-            # Ниже, отправка пользователю уведомления об активности бота
-            requests.post(URL + TOKEN + '/sendChatAction', data={'chat_id': from_id, 'action': 'upload_photo'})
-            send_photo(from_id, offset) # Вызов процедуры отправки фото
-        else:
-            send_text(from_id, 'Error occured') # error answer
-
-    elif cmd == '/keyboard':
-        keyboardLayout = [["they're okay", "I LOVE THEM"]]
-        reply_markup={"keyboard":[["Yes","No"],["Maybe"],["1","2","3"]],"one_time_keyboard":True}
-        messageText='Kyeyboard OK'
-        data = {'chat_id': from_id, 'text': messageText, 'reply_markup': reply_markup}
-        requests.get(URL + TOKEN + "/sendMessage", data=data)
 
 
 
@@ -110,9 +95,26 @@ def run_command(offset, name, from_id, cmd, author_id):
                 return
         print 1
         send_text(from_id, "Result: " + str( [ random.randint(1,dice_size) for i in range(number) ] ) )
+
+    elif (MODE == 1):
+        d = Diary()
+        if cmd =='Day':
+             output = unicode(str(d.return_list(0)), "CP1251")
+             send_text(from_id, output)
+        if cmd =='Week':
+             output = unicode(str(d.return_list(1)), "CP1251")
+             send_text(from_id, output)
+        if cmd =='Backlog':
+             output = unicode(str(d.return_list(2)), "CP1251")
+             send_text(from_id, output)
+        if cmd =='All':
+             output = unicode(str(d), "CP1251")
+             send_text(from_id, output)
+        MODE = 0 
     else:
+        MODE = 0
+
         pass
-        #send_text(from_id, 'What?')
 
 
 if __name__ == "__main__":

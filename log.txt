@@ -344,3 +344,151 @@ Mon Dec 19 22:17:12 2016 >> Message (id441208135) from Eugene (id74102915): "0" 
 Mon Dec 19 22:17:41 2016 >> Sending to 1: 74102915; keyboard: [['0'], ['1']]
 Mon Dec 19 22:17:50 2016 >> Message (id441208136) from Eugene (id74102915): "0" with author: 74102915
 Mon Dec 19 22:17:51 2016 >> Message (id441208136) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:26:39 2016 >> Message (id441208137) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:26:39 2016 >> Error with LOGGING
+Mon Dec 19 22:26:42 2016 >> Message (id441208137) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:26:42 2016 >> Error with LOGGING
+Mon Dec 19 22:26:43 2016 >> Message (id441208138) from Eugene (id74102915): "R" with author: 74102915
+Mon Dec 19 22:30:20 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:30:20 2016 >> Error with LOGGING
+Mon Dec 19 22:30:22 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:31:24 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:31:54 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:32:29 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:32:39 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:33:13 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:33:13 2016 >> Error with LOGGING
+Mon Dec 19 22:33:13 2016 >> Message (id441208140) from Eugene (id74102915): "Q" with author: 74102915
+Mon Dec 19 22:33:54 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:33:54 2016 >> Error with LOGGING
+Mon Dec 19 22:33:54 2016 >> Message (id441208140) from Eugene (id74102915): "Q" with author: 74102915
+Mon Dec 19 22:38:15 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:39:31 2016 >> Message (id441208139) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:39:31 2016 >> Error with LOGGING
+Mon Dec 19 22:39:32 2016 >> Message (id441208140) from Eugene (id74102915): "Q" with author: 74102915
+Mon Dec 19 22:39:32 2016 >> Sending to 74102915: Q
+Mon Dec 19 22:39:32 2016 >> Message (id441208141) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:39:32 2016 >> Error with LOGGING
+Mon Dec 19 22:39:33 2016 >> Message (id441208142) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:39:33 2016 >> Error with LOGGING
+Mon Dec 19 22:39:33 2016 >> Message (id441208143) from Eugene (id74102915): "A" with author: 74102915
+Mon Dec 19 22:39:33 2016 >> Sending to 74102915: A
+Mon Dec 19 22:39:37 2016 >> Message (id441208144) from Eugene (id74102915): "F" with author: 74102915
+Mon Dec 19 22:39:44 2016 >> Message (id441208145) from Eugene (id74102915): "A" with author: 74102915
+Mon Dec 19 22:39:44 2016 >> Sending to 74102915: A
+Mon Dec 19 22:39:48 2016 >> Message (id441208146) from Eugene (id74102915): "A" with author: 74102915
+Mon Dec 19 22:39:55 2016 >> Message (id441208147) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 22:39:55 2016 >> Error with LOGGING
+Mon Dec 19 22:39:59 2016 >> Message (id441208148) from Eugene (id74102915): "Cv" with author: 74102915
+Mon Dec 19 22:39:59 2016 >> Sending to 74102915: Cv
+Mon Dec 19 22:40:03 2016 >> Message (id441208149) from Eugene (id74102915): "As" with author: 74102915
+Mon Dec 19 23:04:59 2016 >> Message (id441208150) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:04:59 2016 >> Sending to 74102915: ; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:05:01 2016 >> Message (id441208150) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:05:01 2016 >> Error with LOGGING
+Mon Dec 19 23:05:16 2016 >> Message (id441208151) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:05:16 2016 >> Sending to 74102915: ; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:05:37 2016 >> Message (id441208152) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:05:37 2016 >> Sending to 74102915: ; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:05:37 2016 >> Message (id441208152) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:05:37 2016 >> Sending to 74102915: ; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:06:04 2016 >> Message (id441208153) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:06:04 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:06:05 2016 >> Message (id441208153) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:06:05 2016 >> Sending to 74102915: ; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:06:54 2016 >> Message (id441208154) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:06:54 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:06:55 2016 >> Message (id441208154) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:06:55 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:08:22 2016 >> Message (id441208155) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 23:08:22 2016 >> Sending to 74102915: 0
+Mon Dec 19 23:08:54 2016 >> Message (id441208155) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 23:08:54 2016 >> Message (id441208156) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:08:54 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:08:55 2016 >> Message (id441208157) from Eugene (id74102915): "Q" with author: 74102915
+Mon Dec 19 23:08:55 2016 >> Sending to 74102915: Q
+Mon Dec 19 23:09:15 2016 >> Message (id441208158) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:09:15 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:09:29 2016 >> Message (id441208159) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:09:29 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:09:41 2016 >> Message (id441208160) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:09:41 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:09:42 2016 >> Sending to 74102915: 1
+Mon Dec 19 23:09:43 2016 >> Message (id441208160) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:09:43 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:10:42 2016 >> Message (id441208161) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:10:42 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:10:44 2016 >> Message (id441208161) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:10:44 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:10:44 2016 >> Sending to 74102915: 1
+Mon Dec 19 23:10:58 2016 >> Message (id441208162) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:10:58 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:11:00 2016 >> Message (id441208162) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:11:00 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:11:49 2016 >> Message (id441208163) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:11:49 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:11:50 2016 >> Message (id441208163) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:11:50 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:12:00 2016 >> Message (id441208164) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 23:12:00 2016 >> Sending to 74102915: 0
+Mon Dec 19 23:12:27 2016 >> Message (id441208165) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:12:27 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 23:12:29 2016 >> Message (id441208165) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:12:29 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:13:52 2016 >> Message (id441208166) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:13:52 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:13:56 2016 >> Message (id441208167) from Eugene (id74102915): "Day" with author: 74102915
+Mon Dec 19 23:13:56 2016 >> Sending to 74102915: Day
+Mon Dec 19 23:17:07 2016 >> Message (id441208168) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:17:07 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog']]
+Mon Dec 19 23:17:08 2016 >> Message (id441208168) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:17:08 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:17:12 2016 >> Message (id441208169) from Eugene (id74102915): "All" with author: 74102915
+Mon Dec 19 23:17:12 2016 >> Sending to 74102915: All
+Mon Dec 19 23:17:12 2016 >> Error with LOGGING
+Mon Dec 19 23:17:29 2016 >> Message (id441208170) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:17:29 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:17:30 2016 >> Message (id441208170) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:17:30 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:17:33 2016 >> Message (id441208171) from Eugene (id74102915): "Day" with author: 74102915
+Mon Dec 19 23:17:34 2016 >> Error with LOGGING
+Mon Dec 19 23:17:54 2016 >> Message (id441208172) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:17:54 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:24:54 2016 >> Message (id441208173) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:24:54 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:24:58 2016 >> Message (id441208174) from Eugene (id74102915): "Day" with author: 74102915
+Mon Dec 19 23:24:58 2016 >> Error with LOGGING
+Mon Dec 19 23:25:18 2016 >> Message (id441208175) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:25:18 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:25:45 2016 >> Message (id441208176) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:25:45 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:25:47 2016 >> Message (id441208176) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:26:01 2016 >> Message (id441208176) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:26:18 2016 >> Message (id441208176) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:27:05 2016 >> Message (id441208176) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:27:05 2016 >> Error with LOGGING
+Mon Dec 19 23:27:06 2016 >> Message (id441208177) from Eugene (id74102915): "Day" with author: 74102915
+Mon Dec 19 23:27:26 2016 >> Message (id441208178) from Eugene (id74102915): "/d - 0 3" with author: 74102915
+Mon Dec 19 23:27:26 2016 >> Error with LOGGING
+Mon Dec 19 23:27:59 2016 >> Message (id441208179) from Eugene (id74102915): "/d - 1 1" with author: 74102915
+Mon Dec 19 23:27:59 2016 >> Error with LOGGING
+Mon Dec 19 23:32:17 2016 >> Message (id441208182) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 23:32:17 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Mon Dec 19 23:32:24 2016 >> Message (id441208183) from Eugene (id74102915): "Week" with author: 74102915
+Mon Dec 19 23:32:24 2016 >> Error with LOGGING
+Mon Dec 19 23:33:57 2016 >> Message (id441208184) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:33:57 2016 >> Error with LOGGING
+Mon Dec 19 23:34:04 2016 >> Message (id441208185) from Eugene (id74102915): "/d - 1 4" with author: 74102915
+Mon Dec 19 23:34:11 2016 >> Message (id441208185) from Eugene (id74102915): "/d - 1 4" with author: 74102915
+Mon Dec 19 23:34:59 2016 >> Message (id441208185) from Eugene (id74102915): "/d - 1 4" with author: 74102915
+Mon Dec 19 23:34:59 2016 >> Error with LOGGING
+Mon Dec 19 23:35:10 2016 >> Message (id441208186) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:35:10 2016 >> Error with LOGGING
+Mon Dec 19 23:37:11 2016 >> Error with LOGGING
+Mon Dec 19 23:37:28 2016 >> Message (id441208189) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:37:28 2016 >> Error with LOGGING
+Mon Dec 19 23:37:32 2016 >> Message (id441208190) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:37:32 2016 >> Error with LOGGING
+Mon Dec 19 23:37:35 2016 >> Message (id441208191) from Eugene (id74102915): "/d - 1 3" with author: 74102915
+Mon Dec 19 23:37:35 2016 >> Error with LOGGING
+Mon Dec 19 23:37:49 2016 >> Error with LOGGING

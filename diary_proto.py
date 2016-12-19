@@ -35,13 +35,20 @@ class Diary:
         write_file(week_file, self.matr[1])
         write_file(backlog_file, self.matr[2])
     
-        
+    def delete_id(self, type, id):
+        try:
+            self.matr[type].pop(id)
+        except:
+            print "Wrong ID: %s",id
+        self.update_files()
+        return 0
+
     def change_flag(self, id, flag_old, flag_new):
         self.matr[flag_new].append(self.matr[flag_old].pop(id))
         self.update_files()
         return 0
         
-    def add_line(self, line, flag):
+    def add_line(self, flag, line):
         self.matr[int(flag)].append(line)
         self.update_files()
         return 0
