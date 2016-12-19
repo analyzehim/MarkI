@@ -324,3 +324,23 @@ Mon Nov 14 21:18:35 2016 >> Error with LOGGING
 Mon Nov 14 21:21:40 2016 >> Sending to 74102915: Added
 Mon Nov 14 21:21:44 2016 >> Message (id737009298) from Eugene (id74102915): "/d" with author: 74102915
 Mon Nov 14 21:21:44 2016 >> Error with LOGGING
+Mon Dec 19 21:19:37 2016 >> Message (id441208128) from Eugene (id74102915): "/d" with author: 74102915
+Mon Dec 19 21:19:37 2016 >> Error with LOGGING
+Mon Dec 19 21:19:54 2016 >> Message (id441208129) from Eugene (id74102915): "/pig" with author: 74102915
+Mon Dec 19 21:19:54 2016 >> Sending to 74102915: Pig is cute
+Mon Dec 19 22:15:05 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 22:15:07 2016 >> Message (id441208130) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:15:07 2016 >> Message (id441208131) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:15:07 2016 >> Message (id441208132) from Eugene (id74102915): "Top Left" with author: 74102915
+Mon Dec 19 22:15:07 2016 >> Message (id441208133) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:15:07 2016 >> Message (id441208134) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:15:28 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 22:16:17 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 22:16:43 2016 >> Message (id441208135) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:16:43 2016 >> Message (id441208135) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:16:45 2016 >> Message (id441208135) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:17:10 2016 >> Sending to 74102915: 1; keyboard: [['0'], ['1']]
+Mon Dec 19 22:17:12 2016 >> Message (id441208135) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:17:41 2016 >> Sending to 1: 74102915; keyboard: [['0'], ['1']]
+Mon Dec 19 22:17:50 2016 >> Message (id441208136) from Eugene (id74102915): "0" with author: 74102915
+Mon Dec 19 22:17:51 2016 >> Message (id441208136) from Eugene (id74102915): "0" with author: 74102915
