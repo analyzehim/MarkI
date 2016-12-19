@@ -9,7 +9,6 @@ import re
 from diary_proto import Diary
 from bot_proto import *
 from bot_const import *
-
 MODE = 0
 
 def check_updates():
@@ -120,6 +119,7 @@ def run_command(offset, name, from_id, cmd, author_id):
 if __name__ == "__main__":
     while True:
         try:
+
             check_updates()
             time.sleep(INTERVAL)
         except KeyboardInterrupt:

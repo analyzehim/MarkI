@@ -8,7 +8,7 @@ import random
 import re
 from bot_const import *
 requests.packages.urllib3.disable_warnings() # Подавление InsecureRequestWarning, с которым я пока ещё не разобрался
-
+TOKEN = parseConfig()
 
 
 def log_event(text):
@@ -17,9 +17,12 @@ def log_event(text):
     """
     f = open('log.txt', 'a')
     event = '%s >> %s' % (time.ctime(), text)
-    f.write(event+'\n')
+    print event + '\n'
+    #f.write(event+'\n')
     f.close()
     print event
+
+
 
 def send_text_withKeyboard(chat_id, text, keyboard):
     try:
@@ -27,7 +30,6 @@ def send_text_withKeyboard(chat_id, text, keyboard):
     except:
          log_event('Error with LOGGING')
     json_data = {"chat_id":chat_id, "text": text, "reply_markup":{"keyboard":keyboard, "one_time_keyboard":True} }
-    print json_data
 
     request = requests.post(URL + TOKEN + '/sendMessage', json=json_data) # HTTP request
     if not request.status_code == 200: # Check server status
