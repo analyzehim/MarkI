@@ -1,5 +1,15 @@
 import requests
 import json
+
+f = open("proxy.txt","r")
+proxy_url = f.read()
+f.close()
+
+proxies = {
+  "http": proxy_url,
+  "https": proxy_url,
+}
+
 '''
 import http.client
 conn = http.client.HTTPConnection("lectureswww.readthedocs.org")
@@ -20,6 +30,16 @@ data = {'text': 1, 'chat_id': 74102915, 'reply_markup':{'keyboard':[ [ "Top Left
 data1 = json.dumps(data)
 data1 = {"text":1, "chat_id": 74102915, "reply_markup":{"keyboard":[["0"],["1"]], "one_time_keyboard":True} }
 
-r =  requests.post(URL + TOKEN + '/sendMessage',json=data1)
-print data1
-print r.content
+#r =  requests.post(URL + TOKEN + '/sendMessage',json=data1, proxies=proxies)
+#print data1
+#print r.content
+
+class A:
+    def __init__(self):
+        self.example = 2
+    def func(self):
+        return self.a
+
+
+a = A()
+print a.func()
