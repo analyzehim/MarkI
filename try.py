@@ -1,6 +1,14 @@
 import requests
 import json
 
+
+import xml.etree.ElementTree as ET
+tree = ET.parse('config')
+root = tree.getroot()
+proxy = root.findall('proxy')[0].text
+token = root.findall('token')[0].text
+
+'''
 f = open("proxy.txt","r")
 proxy_url = f.read()
 f.close()
@@ -10,13 +18,13 @@ proxies = {
   "https": proxy_url,
 }
 
-'''
+
 import http.client
 conn = http.client.HTTPConnection("lectureswww.readthedocs.org")
 conn.request("GET", "/ru/latest/")
 r1 = conn.getresponse()
 print(r1.status)
-'''
+
 URL = 'https://api.telegram.org/bot' # HTTP Bot API URL
 TOKEN = '119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk' # My Token
 #data1 = json.loads('"text": "Hello","chat_id": 74102915,"reply_markup":{"keyboard":[["0"],["1"]], "one_time_keyboard":true}')
@@ -43,3 +51,4 @@ class A:
 
 a = A()
 print a.func()
+'''

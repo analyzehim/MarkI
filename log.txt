@@ -1,1 +1,39 @@
 Mon Dec 19 23:48:06 2016 >> Error getting updates
+Thu Dec 22 09:15:31 2016 >> Init completed
+Thu Dec 22 09:15:45 2016 >> Message (id441208230) from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:16:37 2016 >> Init completed
+Thu Dec 22 09:16:37 2016 >> Sending to 74102915: Pig is foxy
+Thu Dec 22 09:17:10 2016 >> Init completed
+Thu Dec 22 09:17:14 2016 >> Sending to 74102915: Pig is babe
+Thu Dec 22 09:17:18 2016 >> No action
+Thu Dec 22 09:18:16 2016 >> Init completed
+Thu Dec 22 09:18:17 2016 >> Sending to 74102915: Pig is beautiful
+Thu Dec 22 09:19:06 2016 >> Init completed
+Thu Dec 22 09:19:09 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:19:09 2016 >> Sending to 74102915: Pig is attractive
+Thu Dec 22 09:53:41 2016 >> Init completed
+Thu Dec 22 09:53:50 2016 >> Init completed
+Thu Dec 22 09:55:10 2016 >> Init completed
+Thu Dec 22 09:55:19 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:55:19 2016 >> Sending to 74102915: Pig is pretty
+Thu Dec 22 09:58:18 2016 >> Init completed
+Thu Dec 22 09:58:24 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:58:25 2016 >> Sending to 74102915: Pig is handsome
+Thu Dec 22 09:58:27 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:58:27 2016 >> Sending to 74102915: Pig is lovely
+Thu Dec 22 09:58:28 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:58:28 2016 >> Sending to 74102915: Pig is pretty
+Thu Dec 22 09:58:49 2016 >> Init completed
+Thu Dec 22 09:58:49 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:58:49 2016 >> Sending to 74102915: Pig is babe
+Thu Dec 22 09:58:50 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Thu Dec 22 09:58:50 2016 >> Sending to 74102915: Pig is pretty
+Thu Dec 22 10:02:11 2016 >> from Eugene (id74102915): "/d" with author: 74102915
+Thu Dec 22 10:02:11 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Thu Dec 22 10:02:14 2016 >> from Eugene (id74102915): "Day" with author: 74102915
+Thu Dec 22 10:02:14 2016 >> Error with LOGGING
+Thu Dec 22 10:13:56 2016 >> Init completed
+Thu Dec 22 10:14:25 2016 >> Init completed
+Thu Dec 22 10:15:44 2016 >> Init completed
+Thu Dec 22 10:16:42 2016 >> Init completed
+Thu Dec 22 10:17:23 2016 >> Init completed
