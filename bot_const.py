@@ -17,6 +17,11 @@ def getToken():
     TOKEN = root.findall('token')[0].text
     return TOKEN
 
+def getInterval():
+    tree = ET.parse('config.xml')
+    root = tree.getroot()
+    interval = float(root.findall('interval')[0].text)
+    return interval
 
 def getProxies():
     tree = ET.parse('config.xml')

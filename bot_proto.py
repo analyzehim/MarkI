@@ -16,7 +16,7 @@ class Telegram:
             self.proxies = getProxies()
         self.chat_id = 74102915
         self.offset = 0
-        self.Interval = 0.5
+        self.Interval = getInterval()
         if self.mode == 1:
             log_event("Init completed")
         if self.mode == 0:
