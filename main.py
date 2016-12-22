@@ -1,18 +1,22 @@
 # -*- coding: utf-8 -*-
 
 
-from diary_proto import Diary
-from bot_proto import *
+
+import sys
 import re
+sys.path.insert(0, sys.path[0]+'\\proto')
+
+from diary_proto import *
+from bot_proto import *
+
+
 
 '''
 BOT_MODE
 0 - standart
 1 - wait to diary
 2 - quiz
-
 '''
-
 BOT_MODE = 0
 
 

@@ -1,14 +1,21 @@
 import requests
 import json
 
+import sys
+print sys.path
+sys.path.insert(0, sys.path[0]+'\\data\\dict')
+print sys.path
+from bot_proto import *
+d = Telegram()
 
+'''
 import xml.etree.ElementTree as ET
 tree = ET.parse('config')
 root = tree.getroot()
 proxy = root.findall('proxy')[0].text
 token = root.findall('token')[0].text
 
-'''
+
 f = open("proxy.txt","r")
 proxy_url = f.read()
 f.close()

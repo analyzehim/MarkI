@@ -66,3 +66,18 @@ Thu Dec 22 17:57:37 2016 >> from Eugene (id74102915): "/d" with author: 74102915
 Thu Dec 22 17:57:37 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
 Thu Dec 22 17:57:39 2016 >> from Eugene (id74102915): "Day" with author: 74102915
 Thu Dec 22 17:57:39 2016 >> Error with LOGGING
+Thu Dec 22 18:06:40 2016 >> Init completed with proxy
+Thu Dec 22 18:06:45 2016 >> from Eugene (id74102915): "/d" with author: 74102915
+Thu Dec 22 18:06:45 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Thu Dec 22 18:06:53 2016 >> from Eugene (id74102915): "Day" with author: 74102915
+Thu Dec 22 18:06:53 2016 >> Error with LOGGING
+Thu Dec 22 18:12:56 2016 >> Init completed with proxy
+Thu Dec 22 18:13:21 2016 >> Init completed with proxy
+Thu Dec 22 18:13:25 2016 >> from Eugene (id74102915): "/d" with author: 74102915
+Thu Dec 22 18:13:25 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Thu Dec 22 18:13:26 2016 >> from Eugene (id74102915): "/d" with author: 74102915
+Thu Dec 22 18:13:26 2016 >> Sending to 74102915: 1; keyboard: [['Day'], ['Week'], ['Backlog'], ['All']]
+Thu Dec 22 18:13:28 2016 >> from Eugene (id74102915): "Day" with author: 74102915
+Thu Dec 22 18:13:28 2016 >> Error with LOGGING
+Thu Dec 22 18:13:28 2016 >> from Eugene (id74102915): "Day" with author: 74102915
+Thu Dec 22 18:13:28 2016 >> Error with LOGGING

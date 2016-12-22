@@ -41,9 +41,9 @@ def checkMode():
 
     try:
             requests.get('https://www.ya.ru')
-            return 1
+            return False
     except:
             proxies = getProxies()
             requests.get('https://www.ya.ru', proxies = proxies)
-            return 0
+            return True
 

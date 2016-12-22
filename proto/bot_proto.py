@@ -9,24 +9,24 @@ from bot_const import *
 
 class Telegram:
     def __init__(self):
-        self.mode = checkMode()
+        self.proxy = checkMode()
         self.TOKEN = getToken()
         self.URL = 'https://api.telegram.org/bot'
-        if self.mode == 0:
+        if self.proxy:
             self.proxies = getProxies()
         self.chat_id = 74102915
         self.offset = 0
         self.Interval = getInterval()
-        if self.mode == 1:
+        if not self.proxy:
             log_event("Init completed")
-        if self.mode == 0:
+        if self.proxy:
             log_event("Init completed with proxy")
 
     def get_updates(self):
         data = {'offset': self.offset + 1, 'limit': 5, 'timeout': 0}
-        if self.mode == 1:
+        if not self.proxy:
             request = requests.post(self.URL + self.TOKEN + '/getUpdates', data=data)
-        if self.mode == 0:
+        if self.proxy:
             request = requests.post(self.URL + self.TOKEN + '/getUpdates', data=data, proxies=self.proxies)
         if (not request.status_code == 200) or (not request.json()['ok']):
             return False
@@ -62,10 +62,10 @@ class Telegram:
             log_event('Error with LOGGING')
         json_data = {"chat_id": chat_id, "text": text,
                      "reply_markup": {"keyboard": keyboard, "one_time_keyboard": True}}
-        if self.mode == 1:  # no proxy
+        if not self.proxy:  # no proxy
             request = requests.post(self.URL + self.TOKEN + '/sendMessage', json=json_data)  # HTTP request
 
-        if self.mode == 0:
+        if self.proxy:
             request = requests.post(self.URL + self.TOKEN + '/sendMessage', json=json_data,
                                     proxies=self.proxies)  # HTTP request with proxy
 
@@ -79,10 +79,10 @@ class Telegram:
         except:
             log_event('Error with LOGGING')
         data = {'chat_id': chat_id, 'text': text}  # Request create
-        if self.mode == 1:
+        if not self.proxy:
             request = requests.post(self.URL + self.TOKEN + '/sendMessage', data=data)  # HTTP request
 
-        if self.mode == 0:
+        if self.proxy:
             request = requests.post(self.URL + self.TOKEN + '/sendMessage', data=data,
                                     proxies=self.proxies)  # HTTP request with proxy
 
@@ -93,10 +93,10 @@ class Telegram:
     def ping(self):
         log_event('Sending to %s: %s' % (self.chat_id, 'ping'))
         data = {'chat_id': self.chat_id, 'text': 'ping'}
-        if self.mode == 1:
+        if not self.proxy:
             requests.post(self.URL + self.TOKEN + '/sendMessage', data=data)  # HTTP request
 
-        if self.mode == 0:
+        if self.proxy:
             requests.post(self.URL + self.TOKEN + '/sendMessage', data=data,
                                     proxies=self.proxies)  # HTTP request with proxy
 
