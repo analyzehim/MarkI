@@ -8,33 +8,10 @@ BOT_MODE = 0
 
 
 def check_updates():
-    request = telebot.get_updates()
-
-    if (not request.status_code == 200) or (not request.json()['ok']):
-        return False
-
-    if not request.json()['result']:
+    parametersList = telebot.get_updates()
+    if not parametersList:
         return
-    
-    for update in request.json()['result']:
-        telebot.offset = update['update_id']
-
-        if 'message' not in update or 'text' not in update['message']:
-            continue
-
-        from_id = update['message']['chat']['id']  # Chat ID
-        author_id = update['message']['from']['id']  # Creator ID
-        message = update['message']['text']
-        try:
-            name = update['message']['chat']['first_name']   
-        except:
-            name = update['message']['from']['first_name'] 
-
-        parameters = (name, from_id, message, author_id)
-        try:
-            log_event('from %s (id%s): "%s" with author: %s' % parameters)
-        except:
-            pass
+    for parameters in parametersList:
         run_command(*parameters)
 
 
@@ -84,7 +61,6 @@ def run_command(name, from_id, cmd, author_id):
         if dice_size < 2 or number < 1:
                 telebot.send_text(from_id, '%s, wrong input :C' % name)
                 return
-        print 1
         telebot.send_text(from_id, "Result: " + str([random.randint(1, dice_size) for i in range(number)]))
 
     elif BOT_MODE == 1:

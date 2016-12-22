@@ -30,11 +30,34 @@ class Telegram:
         data = {'offset': self.offset + 1, 'limit': 5, 'timeout': 0}
         if self.mode == 1:
             request = requests.post(self.URL + self.TOKEN + '/getUpdates', data=data)
-            return request
         if self.mode == 0:
             request = requests.post(self.URL + self.TOKEN + '/getUpdates', data=data, proxies=self.proxies)
-            return request
-        return False
+        if (not request.status_code == 200) or (not request.json()['ok']):
+            return False
+
+        if not request.json()['result']:
+            return
+        parametersList =[]
+        for update in request.json()['result']:
+            self.offset = update['update_id']
+
+            if 'message' not in update or 'text' not in update['message']:
+                continue
+
+            from_id = update['message']['chat']['id']  # Chat ID
+            author_id = update['message']['from']['id']  # Creator ID
+            message = update['message']['text']
+            try:
+                name = update['message']['chat']['first_name']
+            except:
+                name = update['message']['from']['first_name']
+            parameters = (name, from_id, message, author_id)
+            parametersList.append(parameters)
+            try:
+                log_event('from %s (id%s): "%s" with author: %s' % parameters)
+            except:
+                pass
+        return parametersList
 
     def send_text_with_keyboard(self, chat_id, text, keyboard):
         try:
@@ -81,7 +104,6 @@ class Telegram:
         if self.mode == 0:
             requests.post(self.URL + self.TOKEN + '/sendMessage', data=data,
                                     proxies=self.proxies)  # HTTP request with proxy
-
 
 def log_event(text):
     """
