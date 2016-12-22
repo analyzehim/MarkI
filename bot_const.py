@@ -21,10 +21,10 @@ def getToken():
 def getProxies():
     tree = ET.parse('config.xml')
     root = tree.getroot()
-    proxy_url = root.findall('token')[0].text
-    f = open("password.txt","r")
-    passw = f.read()
-    proxy_url.replace("PASSWORD", passw)
+    proxy_url = root.findall('proxy')[0].text
+    f = open("password.txt", "r")
+    password = f.read()
+    proxy_url = proxy_url.replace("PASSWORD", password)
     proxies = {
       "http": proxy_url,
       "https": proxy_url,

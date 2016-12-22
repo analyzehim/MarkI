@@ -1,14 +1,10 @@
 # -*- coding: utf-8 -*-
 import requests
 import time
-import subprocess
-import os
-import json
-import random
-import re
+
 from bot_const import *
 
-requests.packages.urllib3.disable_warnings()  # Подавление InsecureRequestWarning, с которым я пока ещё не разобрался
+# requests.packages.urllib3.disable_warnings()  # Подавление InsecureRequestWarning, с которым я пока ещё не разобрался
 
 
 class Telegram:
@@ -37,7 +33,7 @@ class Telegram:
 
         if not request.json()['result']:
             return
-        parametersList =[]
+        parametersList = []
         for update in request.json()['result']:
             self.offset = update['update_id']
 
@@ -78,7 +74,6 @@ class Telegram:
         return request.json()['ok']  # Check API
 
     def send_text(self, chat_id, text):
-        """Send text message by chat_id"""
         try:
             log_event('Sending to %s: %s' % (chat_id, text))  # Logging
         except:
@@ -106,9 +101,6 @@ class Telegram:
                                     proxies=self.proxies)  # HTTP request with proxy
 
 def log_event(text):
-    """
-    Logging
-    """
     f = open('log.txt', 'a')
     event = '%s >> %s' % (time.ctime(), text)
     print event + '\n'

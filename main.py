@@ -3,6 +3,15 @@
 
 from diary_proto import Diary
 from bot_proto import *
+import re
+
+'''
+BOT_MODE
+0 - standart
+1 - wait to diary
+2 - quiz
+
+'''
 
 BOT_MODE = 0
 
@@ -50,12 +59,14 @@ def run_command(name, from_id, cmd, author_id):
         return
             
         
-    elif cmd == '/pig' and author_id in (ADMIN_ID, PIG_ID): 
+    elif cmd == '/pig' and author_id in (ADMIN_ID, PIG_ID):
+        import random
         telebot.send_text(from_id, 'Pig is '+random.choice(PIG_LIST))  # Answer
 
 
 
     elif re.match(PATTERN_DICE, cmd) is not None:
+        import random
         number = int(cmd.split('d')[0][1:])
         dice_size = int(cmd.split('d')[1])
         if dice_size < 2 or number < 1:
