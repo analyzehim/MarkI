@@ -1,6 +1,6 @@
-day_file = "data/day.txt" #param 0
-week_file = "data/week.txt" #param 1
-backlog_file = "data/backlog.txt" #param 2
+day_file = "data/diary/day.txt" #param 0
+week_file = "data/diary/week.txt" #param 1
+backlog_file = "data/diary/backlog.txt" #param 2
 
 def parse_file(filename):
     mas=[]
