@@ -81,3 +81,22 @@ Thu Dec 22 18:13:28 2016 >> from Eugene (id74102915): "Day" with author: 7410291
 Thu Dec 22 18:13:28 2016 >> Error with LOGGING
 Thu Dec 22 18:13:28 2016 >> from Eugene (id74102915): "Day" with author: 74102915
 Thu Dec 22 18:13:28 2016 >> Error with LOGGING
+Fri Dec 23 12:08:44 2016 >> from Eugene (id74102915): "Day" with author: 74102915
+Fri Dec 23 12:08:44 2016 >> from Eugene (id74102915): "Day" with author: 74102915
+Fri Dec 23 12:08:44 2016 >> No action
+Fri Dec 23 12:08:44 2016 >> No action
+Fri Dec 23 12:08:51 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Fri Dec 23 12:08:51 2016 >> Sending to 74102915: Pig is handsome
+Fri Dec 23 12:08:51 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Fri Dec 23 12:08:51 2016 >> Sending to 74102915: Pig is babe
+Fri Dec 23 12:08:56 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Fri Dec 23 12:08:56 2016 >> Sending to 74102915: Pig is pretty
+Fri Dec 23 12:08:56 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Fri Dec 23 12:08:56 2016 >> Sending to 74102915: Pig is hot
+Fri Dec 23 12:09:07 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Fri Dec 23 12:09:07 2016 >> Sending to 74102915: Pig is hot
+Sun Dec 25 10:51:24 2016 >> Init completed with proxy
+Sun Dec 25 10:58:22 2016 >> from Eugene (id74102915): "/pig" with author: 74102915
+Sun Dec 25 10:58:22 2016 >> Sending to 74102915: Pig is lovely
+Sun Dec 25 12:15:09 2016 >> Init completed with proxy
+Sun Dec 25 12:15:24 2016 >> from Eugene (id74102915): "exit" with author: 74102915

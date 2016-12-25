@@ -77,7 +77,9 @@ def run_command(name, from_id, cmd, author_id):
                 telebot.send_text(from_id, '%s, wrong input :C' % name)
                 return
         telebot.send_text(from_id, "Result: " + str([random.randint(1, dice_size) for i in range(number)]))
-
+    elif cmd =='/exit':
+        telebot.send_text(from_id, "Finish by user")
+        sys.exit()
     elif BOT_MODE == 1:
         d = Diary()
         if cmd == 'Day':
