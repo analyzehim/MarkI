@@ -8,14 +8,15 @@ sys.path.insert(0, sys.path[0]+'\\proto')
 
 from diary_proto import *
 from bot_proto import *
-
-
+import time
+from sqlite_proto import *
 
 '''
 BOT_MODE
 0 - standart
 1 - wait to diary
 2 - quiz
+3 - life
 '''
 BOT_MODE = 0
 
@@ -28,7 +29,7 @@ def check_updates():
         run_command(*parameters)
 
 
-def run_command(name, from_id, cmd, author_id):
+def run_command(name, from_id, cmd, author_id, date):
     global BOT_MODE
     if cmd == '/ping':
         telebot.send_text(from_id, 'pong') 
@@ -66,6 +67,13 @@ def run_command(name, from_id, cmd, author_id):
     elif cmd == '/pig' and author_id in (ADMIN_ID, PIG_ID):
         import random
         telebot.send_text(from_id, 'Pig is '+random.choice(PIG_LIST))  # Answer
+    elif cmd == '/life':
+        BOT_MODE = 3
+        telebot.send_text_with_keyboard(from_id, 'Options:',
+                                        [["wake up","go sleep"],
+                                         ["breakfast","lunch","dinner"],
+                                         ["go on work", "go from work"],
+                                         ["shower","toilet_B","toilet_S"]])
 
 
 
@@ -77,9 +85,13 @@ def run_command(name, from_id, cmd, author_id):
                 telebot.send_text(from_id, '%s, wrong input :C' % name)
                 return
         telebot.send_text(from_id, "Result: " + str([random.randint(1, dice_size) for i in range(number)]))
-    elif cmd =='/exit':
+    elif cmd == '/exit':
         telebot.send_text(from_id, "Finish by user")
-        sys.exit()
+        #sys.exit()
+    elif BOT_MODE == 3:
+        sqlite_add(cmd, date)
+        telebot.send_text(from_id, "{0}: {1}".format(cmd, human_time(date)))
+        BOT_MODE = 0
     elif BOT_MODE == 1:
         d = Diary()
         if cmd == 'Day':

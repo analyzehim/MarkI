@@ -43,14 +43,15 @@ class Telegram:
             from_id = update['message']['chat']['id']  # Chat ID
             author_id = update['message']['from']['id']  # Creator ID
             message = update['message']['text']
+            date = update['message']['date']
             try:
                 name = update['message']['chat']['first_name']
             except:
                 name = update['message']['from']['first_name']
-            parameters = (name, from_id, message, author_id)
+            parameters = (name, from_id, message, author_id, date)
             parametersList.append(parameters)
             try:
-                log_event('from %s (id%s): "%s" with author: %s' % parameters)
+                log_event('from %s (id%s): "%s" with author: %s; time:%s' % parameters)
             except:
                 pass
         return parametersList

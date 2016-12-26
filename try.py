@@ -1,14 +1,36 @@
-import requests
-import json
+import sqlite3
+from math import sqrt
+import glob
+import time
+con = sqlite3.connect('data/life/life.db')
+cur = con.cursor()
+def init():
+    cur.execute('''CREATE TABLE IF NOT EXISTS `Life`
+    (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
+    `name` VARCHAR(100),
+    `date` INTEGER);''')
+init()
 
-import sys
-print sys.path
-sys.path.insert(0, sys.path[0]+'\\data\\dict')
-print sys.path
-from bot_proto import *
-d = Telegram()
+
+def add(st,date):
+    print '''INSERT INTO  Life(name,date) VALUES ('{0}', {1})'''.format(st, date)
+    cur.execute('''INSERT INTO  Life(name,date) VALUES ('{0}', {1})'''.format(st, date))
+    con.commit()
+
+add('toilet',time.time())
 
 '''
+CREATE TABLE IF NOT EXISTS `tbl` (
+  `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
+  `name` varchar(255) NOT NULL);
+CREATE TABLE `T` (
+	`id`	INTEGER,
+	`name`	VARCHAR(100),
+	`date`	INTEGER,
+	`price`	REAL,
+	`day_return`	REAL,
+	PRIMARY KEY(id)
+);
 import xml.etree.ElementTree as ET
 tree = ET.parse('config')
 root = tree.getroot()
