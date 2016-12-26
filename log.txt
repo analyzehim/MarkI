@@ -294,3 +294,65 @@ Mon Dec 26 10:26:03 2016 >> from Eugene (id74102915): "/life" with author: 74102
 Mon Dec 26 10:26:03 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['breakfast', 'lunch', 'dinner'], ['go on work', 'go from work'], ['shower', 'toilet_B', 'toilet_S']]
 Mon Dec 26 10:26:07 2016 >> from Eugene (id74102915): "breakfast" with author: 74102915; time:1482737137
 Mon Dec 26 10:26:07 2016 >> Sending to 74102915: breakfast: 2016-12-26 10:25:37
+Mon Dec 26 11:37:50 2016 >> Init completed with proxy
+Mon Dec 26 11:37:50 2016 >> from Eugene (id74102915): "go on work" with author: 74102915; time:1482741450
+Mon Dec 26 11:37:50 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482741455
+Mon Dec 26 11:37:50 2016 >> from Eugene (id74102915): "go on work" with author: 74102915; time:1482741459
+Mon Dec 26 11:37:50 2016 >> No action
+Mon Dec 26 11:37:50 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['breakfast', 'lunch', 'dinner'], ['go on work', 'go from work'], ['shower', 'toilet_B', 'toilet_S']]
+Mon Dec 26 11:37:51 2016 >> Sending to 74102915: go on work: 2016-12-26 11:37:39
+Mon Dec 26 12:35:26 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482744926
+Mon Dec 26 12:35:27 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['breakfast', 'lunch', 'dinner'], ['go on work', 'go from work'], ['shower', 'toilet_B', 'toilet_S']]
+Mon Dec 26 12:35:39 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482744938
+Mon Dec 26 12:35:39 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:35:38
+Mon Dec 26 12:41:23 2016 >> Init completed with proxy
+Mon Dec 26 12:42:07 2016 >> Init completed with proxy
+Mon Dec 26 12:42:12 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745331
+Mon Dec 26 12:42:31 2016 >> Init completed with proxy
+Mon Dec 26 12:42:31 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745331
+Mon Dec 26 12:42:31 2016 >> Sending to 74102915:  toilet_S: 2016-12-26 12:42:11
+Mon Dec 26 12:44:05 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745445
+Mon Dec 26 12:44:05 2016 >> Sending to 74102915:  toilet_S: 2016-12-26 12:44:05
+Mon Dec 26 12:44:26 2016 >> Init completed with proxy
+Mon Dec 26 12:44:29 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745469
+Mon Dec 26 12:44:29 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:44:29
+Mon Dec 26 12:48:11 2016 >> Init completed with proxy
+Mon Dec 26 12:48:35 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482745715
+Mon Dec 26 12:48:35 2016 >> Sending to 74102915: Finish by user
+Mon Dec 26 12:48:47 2016 >> Init completed with proxy
+Mon Dec 26 12:48:47 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482745715
+Mon Dec 26 12:48:47 2016 >> Sending to 74102915: Finish by user
+Mon Dec 26 12:51:55 2016 >> Init completed with proxy
+Mon Dec 26 12:51:55 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482745715
+Mon Dec 26 12:51:55 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745906
+Mon Dec 26 12:51:55 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745907
+Mon Dec 26 12:51:55 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745907
+Mon Dec 26 12:51:55 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745908
+Mon Dec 26 12:51:55 2016 >> Sending to 74102915: Finish by user
+Mon Dec 26 12:51:55 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:46
+Mon Dec 26 12:51:55 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:47
+Mon Dec 26 12:51:56 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:47
+Mon Dec 26 12:51:56 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:48
+Mon Dec 26 12:52:46 2016 >> Init completed with proxy
+Mon Dec 26 12:52:46 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482745715
+Mon Dec 26 12:52:46 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745906
+Mon Dec 26 12:52:46 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745907
+Mon Dec 26 12:52:46 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745907
+Mon Dec 26 12:52:46 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745908
+Mon Dec 26 12:52:46 2016 >> Sending to 74102915: Finish by user
+Mon Dec 26 12:52:46 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:46
+Mon Dec 26 12:55:43 2016 >> Init completed with proxy
+Mon Dec 26 12:55:44 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482745715
+Mon Dec 26 12:55:44 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745906
+Mon Dec 26 12:55:44 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745907
+Mon Dec 26 12:55:44 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745907
+Mon Dec 26 12:55:44 2016 >> from Eugene (id74102915): "/life toilet_S" with author: 74102915; time:1482745908
+Mon Dec 26 12:55:44 2016 >> Sending to 74102915: Finish by user
+Mon Dec 26 12:55:44 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:46
+Mon Dec 26 12:55:44 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:47
+Mon Dec 26 12:55:44 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:47
+Mon Dec 26 12:55:45 2016 >> Sending to 74102915: toilet_S: 2016-12-26 12:51:48
+Mon Dec 26 12:55:54 2016 >> Init completed with proxy
+Mon Dec 26 12:56:05 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482746165
+Mon Dec 26 12:56:05 2016 >> Sending to 74102915: Finish by user
+Mon Dec 26 12:56:14 2016 >> Init completed with proxy
