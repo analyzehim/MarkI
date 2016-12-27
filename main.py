@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import sys
 import random
-
+sys.path.insert(0, sys.path[0]+'\\proto')
 from diary_proto import *
 from bot_proto import *
 from sqlite_proto import *
-sys.path.insert(0, sys.path[0]+'\\proto')
+
 
 '''
 BOT_MODE
@@ -27,6 +27,8 @@ def check_updates():
     if not parameters_list:
         return 0
     for parameters in parameters_list:
+        if parameters[3] != ADMIN_ID:
+            continue
         run_command(*parameters)
 
 
