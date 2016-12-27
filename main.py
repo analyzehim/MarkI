@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 import sys
-import re
-import time
 import random
-sys.path.insert(0, sys.path[0]+'\\proto')
+
 from diary_proto import *
 from bot_proto import *
 from sqlite_proto import *
+sys.path.insert(0, sys.path[0]+'\\proto')
 
 '''
 BOT_MODE
@@ -48,22 +47,25 @@ def run_command(name, from_id, cmd, author_id, date):
         if cmd == '/life':
             BOT_MODE = 3
             telebot.send_text_with_keyboard(from_id, 'Options:',
-                                            [["wake up", "go sleep"],
-                                             ["breakfast", "lunch", "dinner"],
-                                             ["go on work", "go from work"],
+                                            [["breakfast", "lunch", "dinner"],
                                              ["shower", "toilet_B", "toilet_S"],
+                                             ["alco", "fastfood", "cinema"],
                                              ["cry", "sex", "tv-series"]])
         else:
             sqlite_add(cmd[6:], date)
             telebot.send_text(from_id, "{0}: {1}".format(cmd[6:], human_time(date)))
 
-    elif re.match(PATTERN_DICE, cmd) is not None:
-        number = int(cmd.split('d')[0][1:])
-        dice_size = int(cmd.split('d')[1])
-        if dice_size < 2 or number < 1:
-                telebot.send_text(from_id, '%s, wrong input :C' % name)
-                return
-        telebot.send_text(from_id, "Result: " + str([random.randint(1, dice_size) for i in range(number)]))
+    elif cmd[0:5] == '/time':
+        if cmd == '/time':
+            BOT_MODE = 3
+            telebot.send_text_with_keyboard(from_id, 'Options:',
+                                            [["wake up", "go sleep"],
+                                             ["coming to work", "leave work"],
+                                             ["coming home", "leave home"],
+                                             ["coming to subway", "leave subway"]])
+        else:
+            sqlite_add(cmd[6:], date)
+            telebot.send_text(from_id, "{0}: {1}".format(cmd[6:], human_time(date)))
 
     elif BOT_MODE == 3:
         sqlite_add(cmd, date)
