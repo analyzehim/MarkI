@@ -2,7 +2,7 @@ from bot_proto import *
 import os
 import time
 
-CHECK_INTERVAL = 20*60
+CHECK_INTERVAL = getHeartBeatInterval()
 
 while(True):
     f = open("log.txt", "r")
@@ -13,4 +13,6 @@ while(True):
     if 'Finish by user' in last_line:
         log_event("FORCE START BY AUTORUNNER")
         os.system('python main.py')
+    else:
+        print "OK"
     time.sleep(CHECK_INTERVAL)

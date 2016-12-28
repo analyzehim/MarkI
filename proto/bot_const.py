@@ -11,6 +11,12 @@ PATTERN_DICE = '/\d*d\d*'# Reg mask for dice
 PIG_LIST = ['cute','adorable','attractive','beautiful','handsome','pretty','gorgeous','lovely','foxy','sexy','hot','babe'] 
 CHAT_ID = 65
 
+def getHeartBeatInterval():
+    tree = ET.parse('config.xml')
+    root = tree.getroot()
+    interval = root.findall('heartbeat_interval')[0].text
+    return int(interval)
+
 def getToken():
     tree = ET.parse('config.xml')
     root = tree.getroot()

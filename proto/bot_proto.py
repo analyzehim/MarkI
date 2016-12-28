@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import requests
 import time
+import socket
 
 from bot_const import *
 
@@ -16,11 +17,12 @@ class Telegram:
             self.proxies = getProxies()
         self.chat_id = 74102915
         self.offset = 0
+        self.host = socket.getfqdn()
         self.Interval = getInterval()
         if not self.proxy:
-            log_event("Init completed")
+            log_event("Init completed, host: " + str(self.host))
         if self.proxy:
-            log_event("Init completed with proxy")
+            log_event("Init completed with proxy, host: " + str(self.host))
 
     def get_updates(self):
         data = {'offset': self.offset + 1, 'limit': 5, 'timeout': 0}

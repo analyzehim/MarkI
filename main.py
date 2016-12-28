@@ -97,7 +97,7 @@ def run_command(name, from_id, cmd, author_id, date):
         BOT_MODE = 4
 
     elif BOT_MODE == 4 and cmd == 'Yes':
-        telebot.send_text(from_id, 'Finish by user {0}'.format(name))
+        telebot.send_text(from_id, 'Finish by user {0} on {1}'.format(name, telebot.host))
         EXIT_MODE = True
 
     elif cmd[0:2] == '/d' and author_id in (ADMIN_ID, PIG_ID):
@@ -150,6 +150,7 @@ def run_command(name, from_id, cmd, author_id, date):
 
 if __name__ == "__main__":
     telebot = Telegram()
+    telebot.send_text(ADMIN_ID, "Run on {0}".format(telebot.host))
     while True:
         try:
             
@@ -157,7 +158,6 @@ if __name__ == "__main__":
             if check_updates() != 1:
                 time.sleep(telebot.Interval)
             else:
-                log_event("Finish by user")
                 sys.exit()
         except KeyboardInterrupt:
             print 'Interrupt by user..'

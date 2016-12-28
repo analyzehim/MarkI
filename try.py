@@ -1,3 +1,5 @@
+import socket
+print socket.getfqdn()
 '''
 import sqlite3
 from common_proto import *

@@ -670,3 +670,33 @@ Wed Dec 28 14:36:01 2016 >> Sending to 74102915: Finish by user Eugene
 Wed Dec 28 14:36:02 2016 >> Finish by user
 Wed Dec 28 14:36:32 2016 >> FORCE START BY AUTORUNNER
 Wed Dec 28 14:36:37 2016 >> Init completed with proxy
+Wed Dec 28 14:43:35 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 14:45:00 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 14:46:05 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 14:46:05 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 14:46:18 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 14:46:18 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 14:46:20 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482925579
+Wed Dec 28 14:46:20 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Wed Dec 28 14:46:21 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482925581
+Wed Dec 28 14:46:21 2016 >> Sending to 74102915: Finish by user Eugene
+Wed Dec 28 14:46:22 2016 >> Sending to 74102915: Finish by user on RAEV-NB.avp.ru
+Wed Dec 28 14:47:11 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 14:47:11 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 14:47:13 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482925633
+Wed Dec 28 14:47:13 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Wed Dec 28 14:47:15 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482925634
+Wed Dec 28 14:47:15 2016 >> Sending to 74102915: Finish by user Eugene on RAEV-NB.avp.ru
+Wed Dec 28 15:14:25 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 15:14:25 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 15:14:34 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482927273
+Wed Dec 28 15:14:34 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Dec 28 15:14:38 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482927277
+Wed Dec 28 15:14:38 2016 >> Sending to 74102915: toilet_S: 2016-12-28 15:14:37
+Wed Dec 28 15:20:00 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482927599
+Wed Dec 28 15:20:00 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Wed Dec 28 15:20:02 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482927601
+Wed Dec 28 15:20:02 2016 >> Sending to 74102915: Finish by user Eugene on RAEV-NB.avp.ru
+Wed Dec 28 15:39:54 2016 >> FORCE START BY AUTORUNNER
+Wed Dec 28 15:39:59 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 15:39:59 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
