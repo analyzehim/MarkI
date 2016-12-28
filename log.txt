@@ -505,3 +505,68 @@ Tue Dec 27 14:39:46 2016 >> from Eugene (id74102915): "/help" with author: 74102
 Tue Dec 27 14:39:46 2016 >> Sending to 74102915: No help today. Sorry, Eugene
 Tue Dec 27 14:39:51 2016 >> from Eugene (id74102915): "/help" with author: 74102915; time:1482838790
 Tue Dec 27 14:39:51 2016 >> Sending to 74102915: No help today. Sorry, Eugene
+Tue Dec 27 15:15:07 2016 >> Init completed with proxy
+Tue Dec 27 15:15:11 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482840910
+Tue Dec 27 15:15:11 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Dec 27 15:15:15 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482840914
+Tue Dec 27 15:15:15 2016 >> Sending to 74102915: toilet_S: 2016-12-27 15:15:14
+Tue Dec 27 17:14:59 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482848098
+Tue Dec 27 17:14:59 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Dec 27 17:15:02 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482848101
+Tue Dec 27 17:15:03 2016 >> Sending to 74102915: toilet_S: 2016-12-27 17:15:01
+Tue Dec 27 18:34:13 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482852852
+Tue Dec 27 18:34:13 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Tue Dec 27 18:34:18 2016 >> from Eugene (id74102915): "leave work" with author: 74102915; time:1482852856
+Tue Dec 27 18:34:18 2016 >> Sending to 74102915: leave work: 2016-12-27 18:34:16
+Tue Dec 27 18:47:02 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482853622
+Tue Dec 27 18:47:02 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Tue Dec 27 18:47:07 2016 >> from Eugene (id74102915): "coming to subway" with author: 74102915; time:1482853627
+Tue Dec 27 18:47:08 2016 >> Sending to 74102915: coming to subway: 2016-12-27 18:47:07
+Tue Dec 27 19:02:13 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482854532
+Tue Dec 27 19:02:13 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Tue Dec 27 19:02:16 2016 >> from Eugene (id74102915): "leave subway" with author: 74102915; time:1482854536
+Tue Dec 27 19:02:16 2016 >> Sending to 74102915: leave subway: 2016-12-27 19:02:16
+Tue Dec 27 19:44:14 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482857054
+Tue Dec 27 19:44:14 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Dec 27 19:44:17 2016 >> from Eugene (id74102915): "dinner" with author: 74102915; time:1482857056
+Tue Dec 27 19:44:17 2016 >> Sending to 74102915: dinner: 2016-12-27 19:44:16
+Tue Dec 27 20:53:20 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482861200
+Tue Dec 27 20:53:20 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Tue Dec 27 20:53:24 2016 >> from Eugene (id74102915): "coming home" with author: 74102915; time:1482861203
+Tue Dec 27 20:53:24 2016 >> Sending to 74102915: coming home: 2016-12-27 20:53:23
+Tue Dec 27 20:56:16 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482861375
+Tue Dec 27 20:56:16 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Dec 27 20:56:19 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482861378
+Tue Dec 27 20:56:19 2016 >> Sending to 74102915: toilet_S: 2016-12-27 20:56:18
+Wed Dec 28 02:38:56 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482881935
+Wed Dec 28 02:38:56 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Dec 28 02:38:58 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482881938
+Wed Dec 28 02:38:58 2016 >> Sending to 74102915: toilet_S: 2016-12-28 02:38:58
+Wed Dec 28 07:38:12 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482899891
+Wed Dec 28 07:38:12 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Wed Dec 28 07:38:14 2016 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1482899894
+Wed Dec 28 07:38:15 2016 >> Sending to 74102915: wake up: 2016-12-28 07:38:14
+Wed Dec 28 08:12:00 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482901919
+Wed Dec 28 08:12:00 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Dec 28 08:12:05 2016 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1482901924
+Wed Dec 28 08:12:05 2016 >> Sending to 74102915: toilet_B: 2016-12-28 08:12:04
+Wed Dec 28 08:24:51 2016 >> Init completed
+Wed Dec 28 08:24:44 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482902683
+Wed Dec 28 08:24:44 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Wed Dec 28 08:24:46 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482902685
+Wed Dec 28 08:24:46 2016 >> Sending to 74102915: Finish by user Eugene
+Wed Dec 28 08:25:34 2016 >> Init completed
+Wed Dec 28 08:25:50 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482902719
+Wed Dec 28 08:26:13 2016 >> Init completed
+Wed Dec 28 08:26:13 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482902719
+Wed Dec 28 08:26:28 2016 >> Init completed
+Wed Dec 28 08:26:38 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482902768
+Wed Dec 28 08:26:39 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482902768
+Wed Dec 28 08:35:54 2016 >> Init completed
+Wed Dec 28 08:35:58 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482903328
+Wed Dec 28 08:35:58 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482903328
+Wed Dec 28 08:35:58 2016 >> Sending to 74102915: Not yet
+Wed Dec 28 08:36:24 2016 >> Init completed
+Wed Dec 28 08:36:32 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482903362
+Wed Dec 28 08:36:32 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482903362
+Wed Dec 28 08:36:32 2016 >> Sending to 74102915: Not yet

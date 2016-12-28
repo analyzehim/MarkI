@@ -5,7 +5,7 @@ sys.path.insert(0, sys.path[0]+'\\proto')
 from diary_proto import *
 from bot_proto import *
 from sqlite_proto import *
-
+from torrent_proto import *
 
 '''
 BOT_MODE
@@ -120,10 +120,15 @@ def run_command(name, from_id, cmd, author_id, date):
             output = unicode(str(d), "CP1251")
             telebot.send_text(from_id, output)
         BOT_MODE = 0
+
+    elif cmd[0:7] == '/magnet':
+        telebot.send_text(from_id, "Not yet")
+        return
+        add_torrent(cmd[8:])
+        telebot.send_text(from_id, "Done")
     else:
         log_event('No action')
         BOT_MODE = 0
-        pass
 
 if __name__ == "__main__":
     telebot = Telegram()

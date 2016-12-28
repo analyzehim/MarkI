@@ -1,25 +1,54 @@
 import sqlite3
+import datetime
+import time
+import random
+con = sqlite3.connect('data/life/life1.db')
+cur = con.cursor()
+cur.execute('''CREATE TABLE IF NOT EXISTS `draft`
+            (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
+            `name` VARCHAR(100),
+            `int` INTEGER);''')
+
+def human_time(time):
+    return datetime.datetime.fromtimestamp(time).strftime('%Y-%m-%d %H:%M:%S')
+
+def sqlite_add(st,date):
+    print '''INSERT INTO  draft(name,date) VALUES ('{0}', {1})'''.format(st, date)
+    cur.execute('''INSERT INTO  draft(name,date) VALUES ('{0}', {1})'''.format(st, date))
+    con.commit()
+timestamp = time.time()
+date = 121545515
+string = 'fagasgeggegegwegegsgsgsgahrh'
+for i in range(10000):
+    date = ra
+    cur.execute('''INSERT INTO  draft(name,int) VALUES ('{0}', {1})'''.format(string, date))
+    con.commit()
+print time.time()-timestamp
+
+def pip(st):
+    import os
+    f = open("password.txt", "r")
+    password = f.read()
+    pip_str ='pip install {0} --proxy "KL\Raev_e:{1}"@proxy.avp.ru:8080'.format(st, password)
+    os.system(pip_str)
+    return 1
+
+
+'''
+
+import sqlite3
 from math import sqrt
 import glob
 import time
 con = sqlite3.connect('data/life/life.db')
 cur = con.cursor()
 def init():
-    cur.execute('''CREATE TABLE IF NOT EXISTS `Life`
-    (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
-    `name` VARCHAR(100),
-    `date` INTEGER);''')
+    cur.execute()
 init()
 
 
-def add(st,date):
-    print '''INSERT INTO  Life(name,date) VALUES ('{0}', {1})'''.format(st, date)
-    cur.execute('''INSERT INTO  Life(name,date) VALUES ('{0}', {1})'''.format(st, date))
-    con.commit()
 
-add('toilet',time.time())
 
-'''
 CREATE TABLE IF NOT EXISTS `tbl` (
   `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
   `name` varchar(255) NOT NULL);
