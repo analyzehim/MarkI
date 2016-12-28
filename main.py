@@ -6,6 +6,7 @@ from diary_proto import *
 from bot_proto import *
 from sqlite_proto import *
 from torrent_proto import *
+from common_proto import *
 
 '''
 BOT_MODE
@@ -28,6 +29,7 @@ def check_updates():
         return 0
     for parameters in parameters_list:
         if parameters[3] != ADMIN_ID:
+            telebot.send_text(parameters[3], "Who the fuck is you?")
             continue
         run_command(*parameters)
 
@@ -77,13 +79,19 @@ def run_command(name, from_id, cmd, author_id, date):
         try:
             cmd = str(cmd)
         except:
-            telebot.send_text(from_id,'Incorrect encoding')
+            telebot.send_text(from_id, 'Incorrect encoding')
         if len(cmd.split('/')) != 4:
             telebot.send_text(from_id, 'Incorrect input')
         operation = cmd.split('/')[2]
-        operation_date = get_time(cmd.split('/')[3], date)
+        operation_date = get_time(date, cmd.split('/')[3])
         sqlite_add(operation, date)
-        telebot.send_text(from_id, "{0}: {1}".format(cmd, human_time(operation_date)))
+        telebot.send_text(from_id, "{0}: {1}".format(operation, human_time(operation_date)))
+
+    elif cmd == '/stat':
+        left, right = get_bounds(date)
+        stat = sqlite_get_stat(left, right)
+        telebot.send_text(from_id, stat)
+
     elif cmd == '/exit':
         telebot.send_text_with_keyboard(from_id, 'Shut down?', [["Yes", "No"]])
         BOT_MODE = 4

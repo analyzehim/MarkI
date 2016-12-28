@@ -1,26 +1,35 @@
-
-import time
-import datetime
-
-
-def get_unixtime(d, m, y, h=0, minute=0, s=0):
-    return time.mktime(datetime.datetime(y, m, d, h, minute, s).timetuple())
-
-print get_unixtime(28,12,2016,10,13)
+'''
+import sqlite3
+from common_proto import *
+con = sqlite3.connect('data/life/life.db')
+cur = con.cursor()
 
 
-def human_time(time_stamp):
-    return datetime.datetime.fromtimestamp(time_stamp).strftime('%Y-%m-%d %H:%M:%S')
+left = 1482872400
+right = 1482958800
+def get_stat_from_bd(left, right):
+    mas = []
+    for row in cur.execute('SELECT * FROM LIFE WHERE date >{0} and date <{1}'.format(left, right)):
+        mas.append([row[2],row[1]])
+
+    mas = sorted(mas ,key=lambda x: x[0])
+    stat=''
+    for i in mas:
+        stat+= human_time(i[0]).split(' ')[1]+'  ' + i[1]+'\n'
+    return stat
+
+print get_stat_from_bd(left, right)
+
 
 timestamp = float(time.time())
 print timestamp
-print human_time(timestamp)
+print 1, human_time(1482899894)
 
 print datetime.datetime.fromtimestamp(timestamp)
 
+print 1, get_unixtime(28,12,2016,8,5)
 
 
-'''
 
 import sqlite3
 import datetime

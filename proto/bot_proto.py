@@ -101,6 +101,7 @@ class Telegram:
             requests.post(self.URL + self.TOKEN + '/sendMessage', data=data,
                                     proxies=self.proxies)  # HTTP request with proxy
 
+
 def log_event(text):
     f = open('log.txt', 'a')
     event = '%s >> %s' % (time.ctime(), text)

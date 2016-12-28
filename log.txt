@@ -572,3 +572,42 @@ Wed Dec 28 08:36:32 2016 >> from Eugene (id74102915): "/magnet hello1" with auth
 Wed Dec 28 08:36:32 2016 >> Sending to 74102915: Not yet
 Wed Dec 28 10:17:49 2016 >> Init completed
 Wed Dec 28 10:18:08 2016 >> from Eugene (id74102915): "/time hello" with author: 74102915; time:1482909457
+Wed Dec 28 10:55:22 2016 >> Init completed with proxy
+Wed Dec 28 10:55:23 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482910335
+Wed Dec 28 10:55:23 2016 >> from Eugene (id74102915): "leave home" with author: 74102915; time:1482910353
+Wed Dec 28 10:55:23 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482911399
+Wed Dec 28 10:55:23 2016 >> from Eugene (id74102915): "come to work" with author: 74102915; time:1482911434
+Wed Dec 28 10:55:23 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Wed Dec 28 10:55:23 2016 >> Sending to 74102915: leave home: 2016-12-28 10:32:33
+Wed Dec 28 10:55:23 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Wed Dec 28 10:55:24 2016 >> Sending to 74102915: come to work: 2016-12-28 10:50:34
+Wed Dec 28 10:58:21 2016 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1482911901
+Wed Dec 28 10:58:21 2016 >> No action
+Wed Dec 28 11:22:41 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913361
+Wed Dec 28 11:23:18 2016 >> Init completed with proxy
+Wed Dec 28 11:23:18 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913361
+Wed Dec 28 11:24:02 2016 >> Init completed with proxy
+Wed Dec 28 11:24:03 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913361
+Wed Dec 28 11:24:39 2016 >> Init completed with proxy
+Wed Dec 28 11:24:39 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913361
+Wed Dec 28 11:25:28 2016 >> Init completed with proxy
+Wed Dec 28 11:25:28 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913361
+Wed Dec 28 11:25:28 2016 >> Sending to 74102915: /add/come to work/11:22: 2016-12-28 11:22:00
+Wed Dec 28 11:26:38 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913598
+Wed Dec 28 11:26:38 2016 >> Sending to 74102915: /add/come to work/11:22: 2016-12-28 11:22:00
+Wed Dec 28 11:26:46 2016 >> Init completed with proxy
+Wed Dec 28 11:26:51 2016 >> from Eugene (id74102915): "/add/come to work/11:22" with author: 74102915; time:1482913610
+Wed Dec 28 11:26:51 2016 >> Sending to 74102915: come to work: 2016-12-28 11:22:00
+Wed Dec 28 11:45:01 2016 >> Init completed with proxy
+Wed Dec 28 11:45:04 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482914704
+Wed Dec 28 12:44:47 2016 >> Init completed with proxy
+Wed Dec 28 12:44:53 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482918292
+Wed Dec 28 12:45:16 2016 >> Init completed with proxy
+Wed Dec 28 12:45:17 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482918292
+Wed Dec 28 12:45:17 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+
