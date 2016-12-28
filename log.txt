@@ -570,3 +570,5 @@ Wed Dec 28 08:36:24 2016 >> Init completed
 Wed Dec 28 08:36:32 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482903362
 Wed Dec 28 08:36:32 2016 >> from Eugene (id74102915): "/magnet hello1" with author: 74102915; time:1482903362
 Wed Dec 28 08:36:32 2016 >> Sending to 74102915: Not yet
+Wed Dec 28 10:17:49 2016 >> Init completed
+Wed Dec 28 10:18:08 2016 >> from Eugene (id74102915): "/time hello" with author: 74102915; time:1482909457

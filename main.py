@@ -73,7 +73,17 @@ def run_command(name, from_id, cmd, author_id, date):
         sqlite_add(cmd, date)
         telebot.send_text(from_id, "{0}: {1}".format(cmd, human_time(date)))
         BOT_MODE = 0
-
+    elif cmd[:4] == '/add':
+        try:
+            cmd = str(cmd)
+        except:
+            telebot.send_text(from_id,'Incorrect encoding')
+        if len(cmd.split('/')) != 4:
+            telebot.send_text(from_id, 'Incorrect input')
+        operation = cmd.split('/')[2]
+        operation_date = get_time(cmd.split('/')[3], date)
+        sqlite_add(operation, date)
+        telebot.send_text(from_id, "{0}: {1}".format(cmd, human_time(operation_date)))
     elif cmd == '/exit':
         telebot.send_text_with_keyboard(from_id, 'Shut down?', [["Yes", "No"]])
         BOT_MODE = 4

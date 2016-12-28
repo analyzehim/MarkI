@@ -1,29 +1,37 @@
+
+import time
+import datetime
+
+
+def get_unixtime(d, m, y, h=0, minute=0, s=0):
+    return time.mktime(datetime.datetime(y, m, d, h, minute, s).timetuple())
+
+print get_unixtime(28,12,2016,10,13)
+
+
+def human_time(time_stamp):
+    return datetime.datetime.fromtimestamp(time_stamp).strftime('%Y-%m-%d %H:%M:%S')
+
+timestamp = float(time.time())
+print timestamp
+print human_time(timestamp)
+
+print datetime.datetime.fromtimestamp(timestamp)
+
+
+
+'''
+
 import sqlite3
 import datetime
 import time
 import random
 con = sqlite3.connect('data/life/life1.db')
 cur = con.cursor()
-cur.execute('''CREATE TABLE IF NOT EXISTS `draft`
-            (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
-            `name` VARCHAR(100),
-            `int` INTEGER);''')
+
 
 def human_time(time):
     return datetime.datetime.fromtimestamp(time).strftime('%Y-%m-%d %H:%M:%S')
-
-def sqlite_add(st,date):
-    print '''INSERT INTO  draft(name,date) VALUES ('{0}', {1})'''.format(st, date)
-    cur.execute('''INSERT INTO  draft(name,date) VALUES ('{0}', {1})'''.format(st, date))
-    con.commit()
-timestamp = time.time()
-date = 121545515
-string = 'fagasgeggegegwegegsgsgsgahrh'
-for i in range(10000):
-    date = ra
-    cur.execute('''INSERT INTO  draft(name,int) VALUES ('{0}', {1})'''.format(string, date))
-    con.commit()
-print time.time()-timestamp
 
 def pip(st):
     import os
@@ -34,7 +42,6 @@ def pip(st):
     return 1
 
 
-'''
 
 import sqlite3
 from math import sqrt
