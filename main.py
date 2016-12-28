@@ -157,6 +157,7 @@ if __name__ == "__main__":
             if check_updates() != 1:
                 time.sleep(telebot.Interval)
             else:
+                log_event("Finish by user")
                 sys.exit()
         except KeyboardInterrupt:
             print 'Interrupt by user..'

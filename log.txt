@@ -611,3 +611,62 @@ Wed Dec 28 12:45:17 2016 >> Sending to 74102915: 02:38:58  toilet_S
 10:32:33  leave home
 10:50:34  coming to work
 
+Wed Dec 28 12:53:45 2016 >> Init completed with proxy
+Wed Dec 28 12:54:38 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482918878
+Wed Dec 28 12:54:38 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Dec 28 12:54:41 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482918881
+Wed Dec 28 12:54:41 2016 >> Sending to 74102915: toilet_S: 2016-12-28 12:54:41
+Wed Dec 28 12:54:44 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482918883
+Wed Dec 28 12:54:44 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+
+Wed Dec 28 13:21:52 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1482920511
+Wed Dec 28 13:21:52 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Dec 28 13:21:54 2016 >> from Eugene (id74102915): "lunch" with author: 74102915; time:1482920513
+Wed Dec 28 13:21:54 2016 >> Sending to 74102915: lunch: 2016-12-28 13:21:53
+Wed Dec 28 14:27:34 2016 >> Init completed with proxy
+Wed Dec 28 14:27:45 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482924465
+Wed Dec 28 14:27:46 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+
+Wed Dec 28 14:29:54 2016 >> Init completed with proxy
+Wed Dec 28 14:29:59 2016 >> Init completed with proxy
+Wed Dec 28 14:30:09 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482924608
+Wed Dec 28 14:30:09 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Wed Dec 28 14:30:12 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482924611
+Wed Dec 28 14:30:12 2016 >> Sending to 74102915: Finish by user Eugene
+Wed Dec 28 14:30:13 2016 >> Finish by user
+Wed Dec 28 14:35:17 2016 >> FORCE START BY AUTORUNNER
+Wed Dec 28 14:35:21 2016 >> Init completed with proxy
+Wed Dec 28 14:35:40 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482924940
+Wed Dec 28 14:35:40 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+
+Wed Dec 28 14:35:48 2016 >> from Eugene (id74102915): "/magnet" with author: 74102915; time:1482924947
+Wed Dec 28 14:35:48 2016 >> Sending to 74102915: Not yet
+Wed Dec 28 14:35:54 2016 >> from Eugene (id74102915): "/help" with author: 74102915; time:1482924953
+Wed Dec 28 14:35:54 2016 >> Sending to 74102915: No help today. Sorry, Eugene
+Wed Dec 28 14:35:59 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482924959
+Wed Dec 28 14:35:59 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Wed Dec 28 14:36:01 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482924961
+Wed Dec 28 14:36:01 2016 >> Sending to 74102915: Finish by user Eugene
+Wed Dec 28 14:36:02 2016 >> Finish by user
+Wed Dec 28 14:36:32 2016 >> FORCE START BY AUTORUNNER
+Wed Dec 28 14:36:37 2016 >> Init completed with proxy
