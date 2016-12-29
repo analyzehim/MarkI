@@ -85,7 +85,7 @@ class Telegram:
         if not self.proxy:
             request = requests.post(self.URL + self.TOKEN + '/sendMessage', data=data)  # HTTP request
 
-        if self.proxy:
+        else:
             request = requests.post(self.URL + self.TOKEN + '/sendMessage', data=data,
                                     proxies=self.proxies)  # HTTP request with proxy
 

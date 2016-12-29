@@ -22,3 +22,4 @@ def get_bounds(date):
     left = unix_time(current_date.day, current_date.month, current_date.year)
     right = left + 86400
     return (left, right)
+

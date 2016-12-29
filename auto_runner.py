@@ -1,8 +1,9 @@
 from bot_proto import *
+from common_proto import *
 import os
 import time
 
-CHECK_INTERVAL = getHeartBeatInterval()
+
 
 while(True):
     f = open("log.txt", "r")
@@ -14,5 +15,6 @@ while(True):
         log_event("FORCE START BY AUTORUNNER")
         os.system('python main.py')
     else:
-        print "OK"
+        print "OK, time: {0}".format(human_time(time.time()))
+    CHECK_INTERVAL = getHeartBeatInterval()
     time.sleep(CHECK_INTERVAL)

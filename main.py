@@ -84,13 +84,25 @@ def run_command(name, from_id, cmd, author_id, date):
             telebot.send_text(from_id, 'Incorrect input')
         operation = cmd.split('/')[2]
         operation_date = get_time(date, cmd.split('/')[3])
-        sqlite_add(operation, date)
+        sqlite_add(operation, operation_date)
         telebot.send_text(from_id, "{0}: {1}".format(operation, human_time(operation_date)))
 
-    elif cmd == '/stat':
+    elif cmd[0:5] == '/stat':
+        if len(cmd) == 5:
+            pass
+        else:
+            new_date = str(cmd).split(' ')[1]
+            [day, month, year] = new_date.split('.')
+            date = unix_time(int(day), int(month), int(year))
+
         left, right = get_bounds(date)
         stat = sqlite_get_stat(left, right)
-        telebot.send_text(from_id, stat)
+        if stat == '':
+            telebot.send_text(from_id, 'No data on this day: {0}'.format(human_time(date)))
+        else:
+            telebot.send_text(from_id, stat)
+
+
 
     elif cmd == '/exit':
         telebot.send_text_with_keyboard(from_id, 'Shut down?', [["Yes", "No"]])
@@ -162,3 +174,5 @@ if __name__ == "__main__":
         except KeyboardInterrupt:
             print 'Interrupt by user..'
             break
+        except Exception, e:
+            log_event(str(e))

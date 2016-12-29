@@ -1,5 +1,11 @@
-import socket
-print socket.getfqdn()
+
+
+def in_at():
+    forehead = True
+    spelt = True
+    return forehead and spelt
+print in_at()
+
 '''
 import sqlite3
 from common_proto import *

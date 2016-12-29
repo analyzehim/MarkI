@@ -700,3 +700,328 @@ Wed Dec 28 15:20:02 2016 >> Sending to 74102915: Finish by user Eugene on RAEV-N
 Wed Dec 28 15:39:54 2016 >> FORCE START BY AUTORUNNER
 Wed Dec 28 15:39:59 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
 Wed Dec 28 15:39:59 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 15:44:03 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 15:44:03 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 15:54:57 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 15:54:57 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 16:27:46 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 16:27:46 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 16:28:14 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Wed Dec 28 16:28:14 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Wed Dec 28 17:18:26 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482934704
+Wed Dec 28 17:18:26 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Wed Dec 28 17:18:28 2016 >> from Eugene (id74102915): "leave work" with author: 74102915; time:1482934707
+Wed Dec 28 17:18:28 2016 >> Sending to 74102915: leave work: 2016-12-28 17:18:27
+Wed Dec 28 17:29:50 2016 >> from Eugene (id74102915): "/add/coming to subway/17:26" with author: 74102915; time:1482935388
+Wed Dec 28 17:29:50 2016 >> Sending to 74102915: coming to subway: 2016-12-28 17:26:00
+Wed Dec 28 15:20:02 2016 >> Sending to 74102915: Finish by user Eugene on RAEV-NB.avp.ru
+Thu Dec 29 09:40:32 2016 >> FORCE START BY AUTORUNNER
+Thu Dec 29 09:40:37 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 09:40:37 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 09:40:37 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482936688
+Thu Dec 29 09:40:37 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482936706
+Thu Dec 29 09:40:37 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482936734
+Thu Dec 29 09:40:37 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482938354
+Thu Dec 29 09:40:37 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1482956626
+Thu Dec 29 09:40:37 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 09:40:38 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 09:40:38 2016 >> Sending to 74102915: /stat: 2016-12-28 17:52:14
+Thu Dec 29 09:40:38 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+15:14:37  toilet_S
+17:18:27  leave work
+17:29:48  coming to subway
+17:52:14  /stat
+
+Thu Dec 29 09:40:38 2016 >> No action
+Thu Dec 29 09:40:39 2016 >> from Eugene (id74102915): "Go sleep" with author: 74102915; time:1482957644
+Thu Dec 29 09:40:39 2016 >> from Eugene (id74102915): "Toilet _b" with author: 74102915; time:1482987798
+Thu Dec 29 09:40:39 2016 >> No action
+Thu Dec 29 09:40:39 2016 >> No action
+Thu Dec 29 09:46:06 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482993944
+Thu Dec 29 09:46:06 2016 >> Sending to 74102915: 
+Thu Dec 29 09:49:21 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482994140
+Thu Dec 29 09:49:21 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 09:49:30 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482994149
+Thu Dec 29 09:49:30 2016 >> Sending to 74102915: /stat: 2016-12-29 09:49:09
+Thu Dec 29 09:49:56 2016 >> from Eugene (id74102915): "Hi" with author: 74102915; time:1482994174
+Thu Dec 29 09:49:56 2016 >> Sending to 74102915: Hello, Eugene
+Thu Dec 29 10:01:55 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482994894
+Thu Dec 29 10:01:55 2016 >> Sending to 74102915: 09:49:09  /stat
+
+Thu Dec 29 10:02:12 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482994910
+Thu Dec 29 10:02:12 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 10:02:14 2016 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1482994912
+Thu Dec 29 10:02:14 2016 >> Sending to 74102915: wake up: 2016-12-29 10:01:52
+Thu Dec 29 10:02:17 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482994915
+Thu Dec 29 10:02:17 2016 >> Sending to 74102915: 09:49:09  /stat
+10:01:52  wake up
+
+Thu Dec 29 10:04:20 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482995038
+Thu Dec 29 10:04:20 2016 >> Sending to 74102915: 09:49:09  /stat
+10:01:52  wake up
+
+Thu Dec 29 10:04:26 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482995044
+Thu Dec 29 10:04:26 2016 >> Sending to 74102915: 09:49:09  /stat
+10:01:52  wake up
+
+Thu Dec 29 10:04:47 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482995065
+Thu Dec 29 10:04:47 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Thu Dec 29 10:04:49 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482995067
+Thu Dec 29 10:04:49 2016 >> Sending to 74102915: Finish by user Eugene on RAEV-NB.avp.ru
+Thu Dec 29 10:05:19 2016 >> Init completed, host: Eugene_Asus
+Thu Dec 29 10:05:19 2016 >> Sending to 74102915: Run on Eugene_Asus
+Thu Dec 29 10:05:25 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482995094
+Thu Dec 29 10:05:25 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+
+Thu Dec 29 10:05:34 2016 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1482995104
+Thu Dec 29 10:05:34 2016 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Thu Dec 29 10:05:36 2016 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1482995105
+Thu Dec 29 10:05:36 2016 >> Sending to 74102915: Finish by user Eugene on Eugene_Asus
+Thu Dec 29 10:24:51 2016 >> FORCE START BY AUTORUNNER
+Thu Dec 29 10:24:55 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 10:24:55 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 10:25:15 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1482996293
+Thu Dec 29 10:25:15 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+
+Thu Dec 29 11:07:14 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1482998811
+Thu Dec 29 11:07:14 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 11:07:18 2016 >> from Eugene (id74102915): "leave home" with author: 74102915; time:1482998815
+Thu Dec 29 11:07:18 2016 >> Sending to 74102915: leave home: 2016-12-29 11:06:55
+Thu Dec 29 11:27:04 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483000000
+Thu Dec 29 11:27:04 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 11:27:09 2016 >> from Eugene (id74102915): "coming to work" with author: 74102915; time:1483000006
+Thu Dec 29 11:27:09 2016 >> Sending to 74102915: coming to work: 2016-12-29 11:26:46
+Thu Dec 29 11:37:06 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 11:37:06 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:19:08 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483010348
+Thu Dec 29 14:19:08 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['coming to subway', 'leave subway']]
+Thu Dec 29 14:19:16 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483010356
+Thu Dec 29 14:19:16 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 14:19:20 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483010359
+Thu Dec 29 14:19:20 2016 >> Sending to 74102915: toilet_S: 2016-12-29 14:19:19
+Thu Dec 29 14:21:29 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483010489
+Thu Dec 29 14:21:29 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+14:19:19  toilet_S
+
+Thu Dec 29 14:21:56 2016 >> from Eugene (id74102915): "/add/lunch/13:40" with author: 74102915; time:1483010516
+Thu Dec 29 14:21:56 2016 >> Sending to 74102915: lunch: 2016-12-29 13:40:00
+Thu Dec 29 14:22:00 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483010520
+Thu Dec 29 14:22:00 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+14:19:19  toilet_S
+14:21:56  lunch
+
+Thu Dec 29 14:22:47 2016 >> from Eugene (id74102915): "lunch: 2016-12-29 13:40:00" with author: 74102915; time:1483010566
+Thu Dec 29 14:22:47 2016 >> No action
+Thu Dec 29 14:22:53 2016 >> from Eugene (id74102915): "/add/lunch/13:40" with author: 74102915; time:1483010572
+Thu Dec 29 14:22:53 2016 >> Sending to 74102915: lunch: 2016-12-29 13:40:00
+Thu Dec 29 14:22:56 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483010575
+Thu Dec 29 14:22:56 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+14:19:19  toilet_S
+14:21:56  lunch
+14:22:52  lunch
+
+Thu Dec 29 14:23:09 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:23:09 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:23:13 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483010592
+Thu Dec 29 14:23:13 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+14:19:19  toilet_S
+14:21:56  lunch
+14:22:52  lunch
+
+Thu Dec 29 14:23:23 2016 >> from Eugene (id74102915): "/add/lunch/13:40" with author: 74102915; time:1483010602
+Thu Dec 29 14:23:23 2016 >> Sending to 74102915: lunch: 2016-12-29 13:40:00
+Thu Dec 29 14:23:25 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483010604
+Thu Dec 29 14:23:25 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+13:40:00  lunch
+14:19:19  toilet_S
+14:21:56  lunch
+14:22:52  lunch
+
+Thu Dec 29 14:23:53 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483010632
+Thu Dec 29 14:23:53 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+13:40:00  lunch
+14:19:19  toilet_S
+
+Thu Dec 29 14:28:41 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:28:41 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:28:49 2016 >> from Eugene (id74102915): "/stat 28.12.2016" with author: 74102915; time:1483010929
+Thu Dec 29 14:29:17 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:29:17 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:29:23 2016 >> from Eugene (id74102915): "/stat 28.12.2016" with author: 74102915; time:1483010963
+Thu Dec 29 14:29:23 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+15:14:37  toilet_S
+17:18:27  leave work
+17:29:48  coming to subway
+17:48:00  leave subway
+17:55:00  alco
+19:46:00  fastfood
+22:46:00  coming to subway
+23:00:00  leave subway
+23:10:00  coming home
+23:23:00  toilet_S
+23:50:00  go sleep
+
+Thu Dec 29 14:29:44 2016 >> from Eugene (id74102915): "/stat 28.11.2016" with author: 74102915; time:1483010984
+Thu Dec 29 14:29:44 2016 >> Sending to 74102915: 
+Thu Dec 29 14:30:40 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:30:40 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:30:47 2016 >> from Eugene (id74102915): "/stat 28.11.2016" with author: 74102915; time:1483011047
+Thu Dec 29 14:31:18 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:31:18 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:31:27 2016 >> from Eugene (id74102915): "/stat 28.12.2016" with author: 74102915; time:1483011086
+Thu Dec 29 14:31:27 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+15:14:37  toilet_S
+17:18:27  leave work
+17:29:48  coming to subway
+17:48:00  leave subway
+17:55:00  alco
+19:46:00  fastfood
+22:46:00  coming to subway
+23:00:00  leave subway
+23:10:00  coming home
+23:23:00  toilet_S
+23:50:00  go sleep
+
+Thu Dec 29 14:32:21 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:32:21 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:32:28 2016 >> from Eugene (id74102915): "/stat 28.12.2016" with author: 74102915; time:1483011147
+Thu Dec 29 14:32:28 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+15:14:37  toilet_S
+17:18:27  leave work
+17:29:48  coming to subway
+17:48:00  leave subway
+17:55:00  alco
+19:46:00  fastfood
+22:46:00  coming to subway
+23:00:00  leave subway
+23:10:00  coming home
+23:23:00  toilet_S
+23:50:00  go sleep
+
+Thu Dec 29 14:32:36 2016 >> from Eugene (id74102915): "/stat 28.11.2016" with author: 74102915; time:1483011155
+Thu Dec 29 14:32:36 2016 >> Sending to 74102915: No data on this day: 1480280400.0
+Thu Dec 29 14:33:00 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:33:00 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 14:33:05 2016 >> from Eugene (id74102915): "/stat 28.12.2016" with author: 74102915; time:1483011185
+Thu Dec 29 14:33:05 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+15:14:37  toilet_S
+17:18:27  leave work
+17:29:48  coming to subway
+17:48:00  leave subway
+17:55:00  alco
+19:46:00  fastfood
+22:46:00  coming to subway
+23:00:00  leave subway
+23:10:00  coming home
+23:23:00  toilet_S
+23:50:00  go sleep
+
+Thu Dec 29 14:33:08 2016 >> from Eugene (id74102915): "/stat 28.11.2016" with author: 74102915; time:1483011188
+Thu Dec 29 14:33:08 2016 >> Sending to 74102915: No data on this day: 2016-11-28 00:00:00
+Thu Dec 29 14:33:27 2016 >> from Eugene (id74102915): "/stat 27.12.2016" with author: 74102915; time:1483011207
+Thu Dec 29 14:33:27 2016 >> Sending to 74102915: 00:08:39  go sleep
+06:02:49  toilet_S
+07:59:32  wake up
+08:03:21  breakfast
+08:13:48  toilet_B
+09:53:47  coming to work
+12:55:34  toilet_S
+13:24:08  lunch
+15:15:14  toilet_S
+17:15:01  toilet_S
+18:34:16  leave work
+18:47:07  coming to subway
+19:02:16  leave subway
+19:44:16  dinner
+20:53:23  coming home
+20:56:18  toilet_S
+
+Thu Dec 29 14:34:04 2016 >> from Eugene (id74102915): "/stat 26.12.2016" with author: 74102915; time:1483011244
+Thu Dec 29 14:34:04 2016 >> Sending to 74102915: 11:37:39  coming to work
+12:35:38  toilet_S
+12:51:46  toilet_S
+12:58:55  leave work
+14:07:48  lunch
+16:16:39  coming to work
+16:27:03  toilet_S
+17:55:43  toilet_B
+19:07:18  leave work
+20:04:57  dinner
+21:07:14  cry
+21:07:45  tv-series
+21:08:01  alco
+22:00:07  toilet_B
+
+Thu Dec 29 14:39:27 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 14:39:27 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
