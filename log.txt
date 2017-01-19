@@ -1025,3 +1025,444 @@ Thu Dec 29 14:34:04 2016 >> Sending to 74102915: 11:37:39  coming to work
 
 Thu Dec 29 14:39:27 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
 Thu Dec 29 14:39:27 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 15:49:47 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 15:49:47 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 15:51:29 2016 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Dec 29 15:51:29 2016 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Dec 29 15:52:00 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483015919
+Thu Dec 29 15:52:00 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 15:52:25 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483015945
+Thu Dec 29 15:52:25 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Dec 29 15:52:34 2016 >> from Eugene (id74102915): "Start workout" with author: 74102915; time:1483015953
+Thu Dec 29 15:52:35 2016 >> Sending to 74102915: Start workout: 2016-12-29 15:52:33
+Thu Dec 29 16:39:43 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483018783
+Thu Dec 29 16:39:43 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Dec 29 16:39:48 2016 >> from Eugene (id74102915): "End workout" with author: 74102915; time:1483018787
+Thu Dec 29 16:39:48 2016 >> Sending to 74102915: End workout: 2016-12-29 16:39:47
+Thu Dec 29 16:40:05 2016 >> from Eugene (id74102915): "/add/toilet_S/16:01" with author: 74102915; time:1483018804
+Thu Dec 29 16:40:05 2016 >> Sending to 74102915: toilet_S: 2016-12-29 16:01:00
+Thu Dec 29 16:40:11 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483018810
+Thu Dec 29 16:40:11 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+13:40:00  lunch
+14:19:19  toilet_S
+15:52:33  Start workout
+16:01:00  toilet_S
+16:39:47  End workout
+
+Thu Dec 29 17:07:18 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483020438
+Thu Dec 29 17:07:18 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Dec 29 17:07:22 2016 >> from Eugene (id74102915): "leave work" with author: 74102915; time:1483020441
+Thu Dec 29 17:07:22 2016 >> Sending to 74102915: leave work: 2016-12-29 17:07:21
+Thu Dec 29 18:16:41 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483024601
+Thu Dec 29 18:16:41 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 18:16:44 2016 >> from Eugene (id74102915): "lunch" with author: 74102915; time:1483024604
+Thu Dec 29 18:16:45 2016 >> Sending to 74102915: lunch: 2016-12-29 18:16:44
+Thu Dec 29 18:16:48 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483024608
+Thu Dec 29 18:16:48 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+13:40:00  lunch
+14:19:19  toilet_S
+15:52:33  Start workout
+16:01:00  toilet_S
+16:39:47  End workout
+17:07:21  leave work
+18:16:44  lunch
+
+Thu Dec 29 19:08:07 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483027687
+Thu Dec 29 19:08:07 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Dec 29 19:08:11 2016 >> from Eugene (id74102915): "coming home" with author: 74102915; time:1483027691
+Thu Dec 29 19:08:11 2016 >> Sending to 74102915: coming home: 2016-12-29 19:08:11
+Thu Dec 29 19:26:33 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483028792
+Thu Dec 29 19:26:33 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Dec 29 19:26:39 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483028799
+Thu Dec 29 19:26:39 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 19:26:41 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483028801
+Thu Dec 29 19:26:41 2016 >> Sending to 74102915: toilet_S: 2016-12-29 19:26:41
+Thu Dec 29 21:45:47 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483037147
+Thu Dec 29 21:45:47 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 21:45:52 2016 >> from Eugene (id74102915): "tv-series" with author: 74102915; time:1483037151
+Thu Dec 29 21:45:52 2016 >> Sending to 74102915: tv-series: 2016-12-29 21:45:51
+Thu Dec 29 21:52:14 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483037533
+Thu Dec 29 21:52:14 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 21:52:16 2016 >> from Eugene (id74102915): "alco" with author: 74102915; time:1483037536
+Thu Dec 29 21:52:16 2016 >> Sending to 74102915: alco: 2016-12-29 21:52:16
+Thu Dec 29 21:52:29 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483037548
+Thu Dec 29 21:52:29 2016 >> Sending to 74102915: 07:55:00  wake up
+08:00:00  breakfast
+08:03:00  toilet_B
+09:40:00  shower
+11:06:55  leave home
+11:26:46  coming to work
+13:40:00  lunch
+14:19:19  toilet_S
+15:52:33  Start workout
+16:01:00  toilet_S
+16:39:47  End workout
+17:07:21  leave work
+18:16:44  lunch
+19:08:11  coming home
+19:26:41  toilet_S
+21:45:51  tv-series
+21:52:16  alco
+
+Thu Dec 29 21:53:51 2016 >> from Eugene (id74102915): "/stat 28.12.2016" with author: 74102915; time:1483037631
+Thu Dec 29 21:53:51 2016 >> Sending to 74102915: 02:38:58  toilet_S
+07:38:14  wake up
+08:05:00  breakfast
+08:12:04  toilet_B
+10:32:33  leave home
+10:50:34  coming to work
+12:54:41  toilet_S
+13:21:53  lunch
+15:14:37  toilet_S
+17:18:27  leave work
+17:29:48  coming to subway
+17:48:00  leave subway
+17:55:00  alco
+19:46:00  fastfood
+22:46:00  coming to subway
+23:00:00  leave subway
+23:10:00  coming home
+23:23:00  toilet_S
+23:50:00  go sleep
+
+Thu Dec 29 23:28:30 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483043310
+Thu Dec 29 23:28:30 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Dec 29 23:28:34 2016 >> from Eugene (id74102915): "cry" with author: 74102915; time:1483043313
+Thu Dec 29 23:28:34 2016 >> Sending to 74102915: cry: 2016-12-29 23:28:33
+Fri Dec 30 00:15:46 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483046145
+Fri Dec 30 00:15:46 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 00:15:49 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483046148
+Fri Dec 30 00:15:49 2016 >> Sending to 74102915: toilet_S: 2016-12-30 00:15:48
+Fri Dec 30 00:16:21 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483046180
+Fri Dec 30 00:16:21 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Fri Dec 30 00:16:23 2016 >> from Eugene (id74102915): "go sleep" with author: 74102915; time:1483046183
+Fri Dec 30 00:16:23 2016 >> Sending to 74102915: go sleep: 2016-12-30 00:16:23
+Fri Dec 30 07:37:24 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483072643
+Fri Dec 30 07:37:24 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 07:37:26 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483072646
+Fri Dec 30 07:37:26 2016 >> Sending to 74102915: toilet_S: 2016-12-30 07:37:26
+Fri Dec 30 08:12:37 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483074756
+Fri Dec 30 08:12:37 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Fri Dec 30 08:12:39 2016 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1483074759
+Fri Dec 30 08:12:39 2016 >> Sending to 74102915: wake up: 2016-12-30 08:12:39
+Fri Dec 30 08:12:47 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483074766
+Fri Dec 30 08:12:47 2016 >> Sending to 74102915: 00:15:48  toilet_S
+00:16:23  go sleep
+07:37:26  toilet_S
+08:12:39  wake up
+
+Fri Dec 30 13:53:55 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483095234
+Fri Dec 30 13:53:55 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 13:53:59 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483095238
+Fri Dec 30 13:53:59 2016 >> Sending to 74102915: toilet_S: 2016-12-30 13:53:58
+Fri Dec 30 14:47:30 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483098449
+Fri Dec 30 14:47:30 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 14:47:34 2016 >> from Eugene (id74102915): "lunch" with author: 74102915; time:1483098453
+Fri Dec 30 14:47:34 2016 >> Sending to 74102915: lunch: 2016-12-30 14:47:33
+Fri Dec 30 14:47:37 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483098456
+Fri Dec 30 14:47:37 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 14:47:38 2016 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1483098458
+Fri Dec 30 14:47:38 2016 >> Sending to 74102915: toilet_B: 2016-12-30 14:47:38
+Fri Dec 30 19:17:28 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483114648
+Fri Dec 30 19:17:28 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 19:17:30 2016 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1483114650
+Fri Dec 30 19:17:30 2016 >> Sending to 74102915: toilet_B: 2016-12-30 19:17:30
+Fri Dec 30 22:26:41 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483126001
+Fri Dec 30 22:26:41 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 22:26:45 2016 >> from Eugene (id74102915): "alco" with author: 74102915; time:1483126005
+Fri Dec 30 22:26:45 2016 >> Sending to 74102915: alco: 2016-12-30 22:26:45
+Fri Dec 30 22:26:50 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483126010
+Fri Dec 30 22:26:50 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Fri Dec 30 22:27:01 2016 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1483126021
+Fri Dec 30 22:27:01 2016 >> Sending to 74102915: toilet_B: 2016-12-30 22:27:01
+Fri Dec 30 22:27:25 2016 >> from Eugene (id74102915): "/stay" with author: 74102915; time:1483126045
+Fri Dec 30 22:27:25 2016 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1483126045
+Fri Dec 30 22:27:25 2016 >> No action
+Fri Dec 30 22:27:25 2016 >> Sending to 74102915: 00:15:48  toilet_S
+00:16:23  go sleep
+07:37:26  toilet_S
+08:12:39  wake up
+13:53:58  toilet_S
+14:47:33  lunch
+14:47:38  toilet_B
+19:17:30  toilet_B
+22:26:45  alco
+22:27:01  toilet_B
+
+Sat Dec 31 01:15:11 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483136110
+Sat Dec 31 01:15:11 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Sat Dec 31 01:15:13 2016 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483136113
+Sat Dec 31 01:15:13 2016 >> Sending to 74102915: toilet_S: 2016-12-31 01:15:13
+Sat Dec 31 17:09:01 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483193341
+Sat Dec 31 17:09:01 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Sat Dec 31 17:09:04 2016 >> from Eugene (id74102915): "sex" with author: 74102915; time:1483193344
+Sat Dec 31 17:09:04 2016 >> Sending to 74102915: sex: 2016-12-31 17:09:04
+Sat Dec 31 17:09:05 2016 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483193345
+Sat Dec 31 17:09:05 2016 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Sat Dec 31 17:09:24 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483193363
+Sat Dec 31 17:09:24 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Sat Dec 31 17:09:28 2016 >> from Eugene (id74102915): "leave home" with author: 74102915; time:1483193368
+Sat Dec 31 17:09:28 2016 >> Sending to 74102915: leave home: 2016-12-31 17:09:28
+Sat Dec 31 17:31:41 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483194701
+Sat Dec 31 17:31:41 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Sat Dec 31 17:31:47 2016 >> from Eugene (id74102915): "coming to subway" with author: 74102915; time:1483194706
+Sat Dec 31 17:31:47 2016 >> Sending to 74102915: coming to subway: 2016-12-31 17:31:46
+Sat Dec 31 17:56:11 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483196170
+Sat Dec 31 17:56:11 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Sat Dec 31 17:56:17 2016 >> from Eugene (id74102915): "leave subway" with author: 74102915; time:1483196176
+Sat Dec 31 17:56:17 2016 >> Sending to 74102915: leave subway: 2016-12-31 17:56:16
+Sat Dec 31 18:34:22 2016 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483198462
+Sat Dec 31 18:34:23 2016 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Sat Dec 31 18:34:31 2016 >> from Eugene (id74102915): "coming home" with author: 74102915; time:1483198471
+Sat Dec 31 18:34:31 2016 >> Sending to 74102915: coming home: 2016-12-31 18:34:31
+Mon Jan 02 12:08:47 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483348127
+Mon Jan 02 12:08:47 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Mon Jan 02 12:08:50 2017 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1483348129
+Mon Jan 02 12:08:50 2017 >> Sending to 74102915: wake up: 2017-01-02 12:08:49
+Tue Jan 03 02:43:50 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483400630
+Tue Jan 03 02:43:50 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Tue Jan 03 02:43:53 2017 >> from Eugene (id74102915): "go sleep" with author: 74102915; time:1483400633
+Tue Jan 03 02:43:53 2017 >> Sending to 74102915: go sleep: 2017-01-03 02:43:53
+Tue Jan 03 09:01:53 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483423313
+Tue Jan 03 09:01:53 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Tue Jan 03 09:01:55 2017 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1483423315
+Tue Jan 03 09:01:55 2017 >> Sending to 74102915: wake up: 2017-01-03 09:01:55
+Tue Jan 03 09:25:27 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483424726
+Tue Jan 03 09:25:27 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Jan 03 09:25:29 2017 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1483424729
+Tue Jan 03 09:25:29 2017 >> Sending to 74102915: toilet_B: 2017-01-03 09:25:29
+Wed Jan 04 01:22:53 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483482173
+Wed Jan 04 01:22:53 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Wed Jan 04 01:22:56 2017 >> from Eugene (id74102915): "go sleep" with author: 74102915; time:1483482175
+Wed Jan 04 01:22:56 2017 >> Sending to 74102915: go sleep: 2017-01-04 01:22:55
+Wed Jan 04 09:11:38 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483510298
+Wed Jan 04 09:11:38 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Wed Jan 04 09:11:40 2017 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1483510299
+Wed Jan 04 09:11:40 2017 >> Sending to 74102915: wake up: 2017-01-04 09:11:39
+Thu Jan 05 01:12:26 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483567946
+Thu Jan 05 01:12:26 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Jan 05 01:12:28 2017 >> from Eugene (id74102915): "go sleep" with author: 74102915; time:1483567948
+Thu Jan 05 01:12:29 2017 >> Sending to 74102915: go sleep: 2017-01-05 01:12:28
+Mon Jan 09 08:37:21 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483940241
+Mon Jan 09 08:37:21 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Mon Jan 09 08:37:24 2017 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1483940244
+Mon Jan 09 08:37:24 2017 >> Sending to 74102915: wake up: 2017-01-09 08:37:24
+Mon Jan 09 10:23:04 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Mon Jan 09 10:23:04 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Mon Jan 09 14:39:32 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483961972
+Mon Jan 09 14:39:32 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Mon Jan 09 14:39:35 2017 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483961974
+Mon Jan 09 14:39:35 2017 >> Sending to 74102915: toilet_S: 2017-01-09 14:39:34
+Mon Jan 09 16:11:50 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483967509
+Mon Jan 09 16:11:50 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Mon Jan 09 16:11:58 2017 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483967517
+Mon Jan 09 16:11:58 2017 >> Sending to 74102915: toilet_S: 2017-01-09 16:11:57
+Mon Jan 09 18:22:42 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1483975362
+Mon Jan 09 18:22:42 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Mon Jan 09 18:22:50 2017 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1483975369
+Mon Jan 09 18:22:50 2017 >> Sending to 74102915: toilet_S: 2017-01-09 18:22:49
+Mon Jan 09 18:46:58 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483976818
+Mon Jan 09 18:46:58 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Mon Jan 09 18:47:31 2017 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1483976850
+Mon Jan 09 18:47:31 2017 >> Sending to 74102915: /exit: 2017-01-09 18:47:30
+Mon Jan 09 18:48:57 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483976937
+Mon Jan 09 18:48:57 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Mon Jan 09 18:49:09 2017 >> from Eugene (id74102915): "leave work" with author: 74102915; time:1483976949
+Mon Jan 09 18:49:09 2017 >> Sending to 74102915: leave work: 2017-01-09 18:49:09
+Mon Jan 09 19:20:19 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1483978818
+Mon Jan 09 19:20:19 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Mon Jan 09 19:20:23 2017 >> from Eugene (id74102915): "coming home" with author: 74102915; time:1483978822
+Mon Jan 09 19:20:23 2017 >> Sending to 74102915: coming home: 2017-01-09 19:20:22
+Tue Jan 10 13:11:15 2017 >> EOF occurred in violation of protocol (_ssl.c:590)
+Tue Jan 10 19:15:53 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Tue Jan 10 19:15:53 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Tue Jan 10 22:14:24 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484075664
+Tue Jan 10 22:14:24 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Jan 10 22:14:29 2017 >> from Eugene (id74102915): "cry" with author: 74102915; time:1484075668
+Tue Jan 10 22:14:29 2017 >> Sending to 74102915: cry: 2017-01-10 22:14:28
+Tue Jan 10 22:14:31 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484075671
+Tue Jan 10 22:14:31 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Tue Jan 10 22:14:34 2017 >> from Eugene (id74102915): "sex" with author: 74102915; time:1484075673
+Tue Jan 10 22:14:34 2017 >> Sending to 74102915: sex: 2017-01-10 22:14:33
+Wed Jan 11 09:37:01 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1484116621
+Wed Jan 11 09:37:01 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Wed Jan 11 09:37:04 2017 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1484116624
+Wed Jan 11 09:37:04 2017 >> Sending to 74102915: wake up: 2017-01-11 09:37:04
+Wed Jan 11 09:37:08 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484116627
+Wed Jan 11 09:37:08 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 09:37:10 2017 >> from Eugene (id74102915): "breakfast" with author: 74102915; time:1484116629
+Wed Jan 11 09:37:10 2017 >> Sending to 74102915: breakfast: 2017-01-11 09:37:09
+Wed Jan 11 09:52:52 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484117571
+Wed Jan 11 09:52:52 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 09:52:53 2017 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1484117573
+Wed Jan 11 09:52:53 2017 >> Sending to 74102915: toilet_B: 2017-01-11 09:52:53
+Wed Jan 11 09:52:55 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484117575
+Wed Jan 11 09:52:55 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 09:52:58 2017 >> from Eugene (id74102915): "fastfood" with author: 74102915; time:1484117578
+Wed Jan 11 09:52:58 2017 >> Sending to 74102915: fastfood: 2017-01-11 09:52:58
+Wed Jan 11 11:09:38 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1484122178
+Wed Jan 11 11:09:38 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Wed Jan 11 11:09:45 2017 >> from Eugene (id74102915): "leave home" with author: 74102915; time:1484122185
+Wed Jan 11 11:09:45 2017 >> Sending to 74102915: leave home: 2017-01-11 11:09:45
+Wed Jan 11 11:31:11 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1484123470
+Wed Jan 11 11:31:11 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Wed Jan 11 11:31:17 2017 >> from Eugene (id74102915): "coming to work" with author: 74102915; time:1484123477
+Wed Jan 11 11:31:17 2017 >> Sending to 74102915: coming to work: 2017-01-11 11:31:17
+Wed Jan 11 14:20:25 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484133625
+Wed Jan 11 14:20:25 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 14:20:28 2017 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1484133627
+Wed Jan 11 14:20:28 2017 >> Sending to 74102915: toilet_S: 2017-01-11 14:20:27
+Wed Jan 11 15:02:11 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484136131
+Wed Jan 11 15:02:11 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 15:02:18 2017 >> from Eugene (id74102915): "lunch" with author: 74102915; time:1484136137
+Wed Jan 11 15:02:18 2017 >> Sending to 74102915: lunch: 2017-01-11 15:02:17
+Wed Jan 11 18:34:00 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484148840
+Wed Jan 11 18:34:00 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 18:34:02 2017 >> from Eugene (id74102915): "dinner" with author: 74102915; time:1484148841
+Wed Jan 11 18:34:02 2017 >> Sending to 74102915: dinner: 2017-01-11 18:34:01
+Wed Jan 11 19:58:27 2017 >> from Eugene (id-171020752): "/hello@l4rs2_bot" with author: 74102915; time:1484153907
+Wed Jan 11 19:58:27 2017 >> No action
+Wed Jan 11 19:58:37 2017 >> from Eugene (id-171020752): "/hello" with author: 74102915; time:1484153917
+Wed Jan 11 19:58:37 2017 >> No action
+Wed Jan 11 19:59:02 2017 >> from Eugene (id-171020752): "/hello" with author: 74102915; time:1484153942
+Wed Jan 11 19:59:02 2017 >> No action
+Wed Jan 11 19:59:05 2017 >> from Eugene (id-171020752): "/help@ChatWarsBot" with author: 74102915; time:1484153944
+Wed Jan 11 19:59:05 2017 >> No action
+Wed Jan 11 19:59:14 2017 >> from Eugene (id-171020752): "/help" with author: 74102915; time:1484153953
+Wed Jan 11 19:59:14 2017 >> Sending to -171020752: No help today. Sorry, Eugene
+Wed Jan 11 22:52:53 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484164372
+Wed Jan 11 22:52:53 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 22:52:56 2017 >> from Eugene (id74102915): "alco" with author: 74102915; time:1484164375
+Wed Jan 11 22:52:56 2017 >> Sending to 74102915: alco: 2017-01-11 22:52:55
+Wed Jan 11 22:55:20 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484164520
+Wed Jan 11 22:55:20 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Wed Jan 11 22:55:23 2017 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1484164522
+Wed Jan 11 22:55:23 2017 >> Sending to 74102915: toilet_B: 2017-01-11 22:55:22
+Thu Jan 12 07:49:10 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484196550
+Thu Jan 12 07:49:10 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 07:49:16 2017 >> from Eugene (id74102915): "/time" with author: 74102915; time:1484196556
+Thu Jan 12 07:49:16 2017 >> Sending to 74102915: Options:; keyboard: [['wake up', 'go sleep'], ['coming to work', 'leave work'], ['coming home', 'leave home'], ['Start workout', 'End workout'], ['coming to subway', 'leave subway']]
+Thu Jan 12 07:49:18 2017 >> from Eugene (id74102915): "wake up" with author: 74102915; time:1484196558
+Thu Jan 12 07:49:18 2017 >> Sending to 74102915: wake up: 2017-01-12 07:49:18
+Thu Jan 12 07:49:21 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484196560
+Thu Jan 12 07:49:21 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 07:49:24 2017 >> from Eugene (id74102915): "toilet_S" with author: 74102915; time:1484196564
+Thu Jan 12 07:49:24 2017 >> Sending to 74102915: toilet_S: 2017-01-12 07:49:24
+Thu Jan 12 09:36:59 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484203018
+Thu Jan 12 09:36:59 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 09:37:02 2017 >> from Eugene (id74102915): "breakfast" with author: 74102915; time:1484203021
+Thu Jan 12 09:37:02 2017 >> Sending to 74102915: breakfast: 2017-01-12 09:37:01
+Thu Jan 12 09:37:04 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484203023
+Thu Jan 12 09:37:04 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 09:37:06 2017 >> from Eugene (id74102915): "shower" with author: 74102915; time:1484203026
+Thu Jan 12 09:37:07 2017 >> Sending to 74102915: shower: 2017-01-12 09:37:06
+Thu Jan 12 13:16:07 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484216166
+Thu Jan 12 13:16:07 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 13:16:09 2017 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1484216169
+Thu Jan 12 13:16:09 2017 >> Sending to 74102915: toilet_B: 2017-01-12 13:16:09
+Thu Jan 12 14:00:51 2017 >> ('Connection aborted.', BadStatusLine("''",))
+Thu Jan 12 14:00:54 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F048>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:00:56 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038A90>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:00:58 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030389E8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:00 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038EB8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:03 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038860>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:05 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038978>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:07 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038390>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:09 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038C88>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:12 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038358>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:14 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038470>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:16 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030386A0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:19 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038630>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:21 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038BA8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:23 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030389B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:25 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038EF0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:28 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030382B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:30 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038278>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:32 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038AC8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:34 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038780>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:37 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038320>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:39 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038208>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:41 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F30F0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:43 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3160>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:46 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F31D0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:48 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3240>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:50 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F32B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:52 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3320>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:55 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3390>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 14:01:57 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3400>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Thu Jan 12 15:11:44 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484223103
+Thu Jan 12 15:11:44 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 15:11:48 2017 >> from Eugene (id74102915): "lunch" with author: 74102915; time:1484223108
+Thu Jan 12 15:11:48 2017 >> Sending to 74102915: lunch: 2017-01-12 15:11:48
+Thu Jan 12 17:50:12 2017 >> from Eugene (id74102915): "/stat" with author: 74102915; time:1484232612
+Thu Jan 12 17:50:13 2017 >> Sending to 74102915: 07:49:18  wake up
+07:49:24  toilet_S
+09:37:01  breakfast
+09:37:06  shower
+13:16:09  toilet_B
+15:11:48  lunch
+
+Thu Jan 12 19:12:30 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1484237549
+Thu Jan 12 19:12:30 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Jan 12 19:12:32 2017 >> from Eugene (id74102915): "toilet_B" with author: 74102915; time:1484237552
+Thu Jan 12 19:12:33 2017 >> Sending to 74102915: toilet_B: 2017-01-12 19:12:32
+Fri Jan 13 13:31:33 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3C88>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:36 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3FD0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:38 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3978>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:40 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F35F8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:43 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038C18>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:45 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038EF0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:47 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038208>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:49 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030386A0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:52 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038CF8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:54 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038A20>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:56 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038E48>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:31:58 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038358>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:01 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030389E8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:03 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038EB8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:05 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038320>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:07 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038B70>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:10 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038E10>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:12 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038240>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:14 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038748>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:16 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038CC0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:19 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030386D8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:21 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038940>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:23 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038C50>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:26 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038A58>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:28 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030388D0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:30 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x0000000003038F28>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:32 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x00000000030F3B38>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:35 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F9B0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:37 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F2E8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:39 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303FF60>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:41 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F8D0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:44 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303FAC8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:46 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F550>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:48 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303FFD0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:50 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F6D8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:53 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F358>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:55 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303FDD8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:57 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F940>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:32:59 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303FC50>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:33:02 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F5F8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:33:04 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303F5C0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Fri Jan 13 13:33:06 2017 >> HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk/getUpdates (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x000000000303FD68>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)))
+Sat Jan 14 00:50:55 2017 >> EOF occurred in violation of protocol (_ssl.c:590)
+Sat Jan 14 22:36:00 2017 >> from Eugene (id74102915): "/exit" with author: 74102915; time:1484422559
+Sat Jan 14 22:36:00 2017 >> Sending to 74102915: Shut down?; keyboard: [['Yes', 'No']]
+Sat Jan 14 22:36:02 2017 >> from Eugene (id74102915): "Yes" with author: 74102915; time:1484422561
+Sat Jan 14 22:36:02 2017 >> Sending to 74102915: Finish by user Eugene on RAEV-NB.avp.ru
+Sat Jan 14 23:17:08 2017 >> FORCE START BY AUTORUNNER
+Sat Jan 14 23:17:16 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Sat Jan 14 23:17:16 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru

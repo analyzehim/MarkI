@@ -2,6 +2,7 @@
 import sys
 import random
 sys.path.insert(0, sys.path[0]+'\\proto')
+sys.path.insert(0, sys.path[0]+'/proto')
 from diary_proto import *
 from bot_proto import *
 from sqlite_proto import *
@@ -66,6 +67,7 @@ def run_command(name, from_id, cmd, author_id, date):
                                             [["wake up", "go sleep"],
                                              ["coming to work", "leave work"],
                                              ["coming home", "leave home"],
+                                             ["Start workout", "End workout"],
                                              ["coming to subway", "leave subway"]])
         else:
             sqlite_add(cmd[6:], date)
@@ -101,8 +103,6 @@ def run_command(name, from_id, cmd, author_id, date):
             telebot.send_text(from_id, 'No data on this day: {0}'.format(human_time(date)))
         else:
             telebot.send_text(from_id, stat)
-
-
 
     elif cmd == '/exit':
         telebot.send_text_with_keyboard(from_id, 'Shut down?', [["Yes", "No"]])

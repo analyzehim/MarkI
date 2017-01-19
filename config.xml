@@ -2,5 +2,5 @@
     <proxy>http://KL\Raev_E:PASSWORD@proxy.avp.ru/</proxy>
     <token>119170444:AAGu9QuWoZ7WFAIQS-1q1Az4rhzHQdiFfDk</token>
     <interval>0.5</interval>
-    <heartbeat_interval>1200</heartbeat_interval>
+    <heartbeat_interval>7200</heartbeat_interval>
 </config>
