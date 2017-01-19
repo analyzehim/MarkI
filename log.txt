@@ -1466,3 +1466,9 @@ Sat Jan 14 22:36:02 2017 >> Sending to 74102915: Finish by user Eugene on RAEV-N
 Sat Jan 14 23:17:08 2017 >> FORCE START BY AUTORUNNER
 Sat Jan 14 23:17:16 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
 Sat Jan 14 23:17:16 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Jan 19 14:32:44 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Jan 19 14:32:44 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Jan 19 14:32:46 2017 >> from Eugene (id74102915): "who the fuck is you" with author: 74102915; time:1484825148
+Thu Jan 19 14:32:46 2017 >> No action
+Thu Jan 19 14:33:27 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Thu Jan 19 14:33:27 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru

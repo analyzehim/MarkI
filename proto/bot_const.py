@@ -21,7 +21,7 @@ def getHeartBeatInterval():
 
 
 def getToken():
-    tree = ET.parse('config.xml')
+    tree = ET.parse('private_config.xml')
     root = tree.getroot()
     TOKEN = root.findall('token')[0].text
     return TOKEN
@@ -33,13 +33,17 @@ def getInterval():
     interval = float(root.findall('interval')[0].text)
     return interval
 
+def getProxyPassword():
+    tree = ET.parse('private_config.xml')
+    root = tree.getroot()
+    password = root.findall('proxy_password')[0].text
+    return password
 
 def getProxies():
-    tree = ET.parse('config.xml')
+    tree = ET.parse('private_config.xml')
     root = tree.getroot()
     proxy_url = root.findall('proxy')[0].text
-    f = open("password.txt", "r")
-    password = f.read()
+    password = getProxyPassword()
     proxy_url = proxy_url.replace("PASSWORD", password)
     proxies = {
       "http": proxy_url,
@@ -47,6 +51,11 @@ def getProxies():
     }
     return proxies
 
+def getProxyPassword():
+    tree = ET.parse('private_config.xml')
+    root = tree.getroot()
+    password = root.findall('proxy_password')[0].text
+    return password
 
 def checkMode():
     import requests
