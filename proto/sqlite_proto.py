@@ -7,12 +7,13 @@ cur = con.cursor()
 cur.execute('''CREATE TABLE IF NOT EXISTS `Life`
             (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,
             `name` VARCHAR(100),
+            `date_str` VARCHAR(100),
             `date` INTEGER);''')
 
 
-def sqlite_add(st,date):
-    print '''INSERT INTO  Life(name,date) VALUES ('{0}', {1})'''.format(st, date)
-    cur.execute('''INSERT INTO  Life(name,date) VALUES ('{0}', {1})'''.format(st, date))
+def sqlite_add(st, date):
+    print '''INSERT INTO  Life(name, date_str, date) VALUES ('{0}','{1}', {2})'''.format(st, human_time(date), date)
+    cur.execute('''INSERT INTO  Life(name, date_str, date) VALUES ('{0}','{1}', {2})'''.format(st, human_time(date), date))
     con.commit()
 
 

@@ -20,12 +20,27 @@ def getHeartBeatInterval():
     return int(interval)
 
 
+def getTest():
+    tree = ET.parse('config.xml')
+    root = tree.getroot()
+    test = int(root.findall('test')[0].text)
+    if test == 1:
+        return True
+    else:
+        return False
+
+
 def getToken():
     tree = ET.parse('private_config.xml')
     root = tree.getroot()
     TOKEN = root.findall('token')[0].text
     return TOKEN
 
+def getTestToken():
+    tree = ET.parse('private_config.xml')
+    root = tree.getroot()
+    TOKEN = root.findall('test_token')[0].text
+    return TOKEN
 
 def getInterval():
     tree = ET.parse('config.xml')

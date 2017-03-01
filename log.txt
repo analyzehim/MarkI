@@ -1472,3 +1472,29 @@ Thu Jan 19 14:32:46 2017 >> from Eugene (id74102915): "who the fuck is you" with
 Thu Jan 19 14:32:46 2017 >> No action
 Thu Jan 19 14:33:27 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
 Thu Jan 19 14:33:27 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Thu Mar 02 00:16:35 2017 >> Init completed, host: Eugene_Asus
+Thu Mar 02 00:16:35 2017 >> Sending to 74102915: Run on Eugene_Asus
+Thu Mar 02 00:16:50 2017 >> from Eugene (id74102915): "Hi" with author: 74102915; time:1488402971
+Thu Mar 02 00:16:50 2017 >> Sending to 74102915: Hello, Eugene
+Thu Mar 02 01:01:14 2017 >> Init completed, host: Eugene_Asus
+Thu Mar 02 01:01:14 2017 >> Sending to 74102915: Run on Eugene_Asus
+Thu Mar 02 01:01:21 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1488405642
+Thu Mar 02 01:01:21 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Mar 02 01:01:23 2017 >> from Eugene (id74102915): "breakfast" with author: 74102915; time:1488405644
+Thu Mar 02 01:01:23 2017 >> table Life has no column named date_str
+Thu Mar 02 01:01:55 2017 >> Init completed, host: Eugene_Asus
+Thu Mar 02 01:01:55 2017 >> Sending to 74102915: Run on Eugene_Asus
+Thu Mar 02 01:02:00 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1488405681
+Thu Mar 02 01:02:00 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Mar 02 01:02:02 2017 >> from Eugene (id74102915): "breakfast" with author: 74102915; time:1488405683
+Thu Mar 02 01:02:03 2017 >> Sending to 74102915: breakfast: 2017-03-02 01:01:23
+Thu Mar 02 01:02:51 2017 >> Sending to 74102915: Incorrect encoding
+Thu Mar 02 01:02:52 2017 >> Sending to 74102915: Incorrect input
+Thu Mar 02 01:02:52 2017 >> list index out of range
+Thu Mar 02 01:03:12 2017 >> from Eugene (id74102915): "/add play overwatch" with author: 74102915; time:1488405753
+Thu Mar 02 01:03:12 2017 >> Sending to 74102915: Incorrect input
+Thu Mar 02 01:03:13 2017 >> list index out of range
+Thu Mar 02 01:04:02 2017 >> from Eugene (id74102915): "/life" with author: 74102915; time:1488405803
+Thu Mar 02 01:04:02 2017 >> Sending to 74102915: Options:; keyboard: [['breakfast', 'lunch', 'dinner'], ['shower', 'toilet_B', 'toilet_S'], ['alco', 'fastfood', 'cinema'], ['cry', 'sex', 'tv-series']]
+Thu Mar 02 01:04:10 2017 >> from Eugene (id74102915): "Play overwatch" with author: 74102915; time:1488405811
+Thu Mar 02 01:04:11 2017 >> Sending to 74102915: Play overwatch: 2017-03-02 01:03:31

@@ -11,7 +11,13 @@ from bot_const import *
 class Telegram:
     def __init__(self):
         self.proxy = checkMode()
-        self.TOKEN = getToken()
+
+        self.test = getTest()
+        if not self.test:
+            self.TOKEN = getToken()
+        else:
+            self.TOKEN = getTestToken()
+
         self.URL = 'https://api.telegram.org/bot'
         if self.proxy:
             self.proxies = getProxies()
